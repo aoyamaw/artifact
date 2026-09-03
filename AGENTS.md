@@ -35,8 +35,16 @@
 - `daily_summary.themes` 和 `daily_summary.opportunities` 的 `source_bvids` 只能引用本输入包中的 BVID。
 - `daily_summary.limitations` 必须说明本次无法确认的内容。
 
+## 产出路径
+
+- 最终产出保存到 ChatGPT Library 的 `/Artifacts/` 下，不要保存到本 Git 仓库的 `artifact/` 目录。
+- 推荐文件名：`bili_trend_content_understanding_YYYY-MM-DD_result.json`。
+- 如同时保存可读摘要和原始响应，使用同一日期前缀，例如 `..._result.md`、`..._raw_response.md`。
+- `result.json` 是权威结构化产出，必须是上面规定的单个 JSON 对象；`result.md` 只作为阅读摘要。
+- 需要运行本地校验时，再从 ChatGPT Library 的 `/Artifacts/` 下载结果到项目本地，由校验器保存到 `.local/content_understanding/YYYY-MM-DD/vN/`。
+
 ## 安全与保存
 
 - 不要输出 Cookie、访问令牌、完整签名媒体 URL 或其他凭据。
 - 不要修改、提交或上传本目录中的输入文件。
-- 模型输出由上层项目保存到本地 `.local/content_understanding/`，并由校验脚本固化；不要把输出写回本仓库。
+- ChatGPT Library 的 `/Artifacts/` 是模型产出的保存位置，不属于本 Git 输入仓库；不要把产出写回、提交或推送到本仓库。

@@ -1,0 +1,4039 @@
+{
+  "form_type": "bili_content_understanding_input",
+  "schema_version": "1.0",
+  "run_date": "2026-09-16",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-16T22:33:48+08:00",
+  "source": {
+    "project": "bili_trend",
+    "snapshot_date": "2026-09-16",
+    "source_file": "data/videos_replicable.csv",
+    "analysis_file": "data/analysis.json",
+    "analysis_cutoff": "2026-06-16",
+    "date_coverage": [
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-25",
+      "2026-08-26",
+      "2026-08-27",
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30",
+      "2026-08-31",
+      "2026-09-01",
+      "2026-09-03",
+      "2026-09-07",
+      "2026-09-10",
+      "2026-09-12",
+      "2026-09-13",
+      "2026-09-16"
+    ],
+    "media_resolver": "bilibili_x_player_pagelist_playurl_html5",
+    "media_resolved_count": 60,
+    "media_resolution_policy": "best_effort; direct URLs may expire",
+    "media_expiry": {
+      "status": "available",
+      "estimated_expires_at": "2026-09-17T00:33+08:00",
+      "recommended_use_until": "2026-09-17T00:23+08:00",
+      "earliest_expires_at": "2026-09-17T00:33+08:00",
+      "latest_expires_at": "2026-09-17T00:33+08:00",
+      "estimated_ttl_minutes": 120,
+      "resolved_count": 60,
+      "unresolved_count": 0,
+      "note": "以本批最早到期链接作为整体参考；recommended_use_until 已预留 10 分钟缓冲"
+    }
+  },
+  "selection": {
+    "candidate_count": 292,
+    "selected_count": 60,
+    "excluded_count": 604,
+    "excluded_reasons": {
+      "view_not_positive": 443,
+      "view_below_minimum": 161
+    },
+    "limit": 60,
+    "max_per_category": 8,
+    "min_view": 1000,
+    "rank_rule": "view_threshold_then_engagement_then_growth_then_view_then_bvid"
+  },
+  "content_scope": {
+    "available_fields": [
+      "title",
+      "description",
+      "category",
+      "style",
+      "creator",
+      "metrics",
+      "media"
+    ],
+    "unavailable_by_default": [
+      "video_audio",
+      "subtitle",
+      "comments",
+      "visual_frames"
+    ],
+    "instruction": "仅根据 available_fields 作判断；不可推断的字段使用 null。"
+  },
+  "items": [
+    {
+      "bvid": "BV1KeeH6FE6Q",
+      "url": "https://www.bilibili.com/video/BV1KeeH6FE6Q",
+      "media": {
+        "url": "https://upos-sz-estgoss.bilivideo.com/upgcxcode/81/73/41924497381/41924497381-1-192.mp4?e=ig8euxZM2rNcNbRghbdVhwdlhWNghwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&oi=2028373335&nbs=1&platform=html5&gen=playurlv3&mid=0&uipk=5&trid=b2a4d7262b5146be88307f59e1fe03ch&deadline=1789576428&os=estgoss&og=ali&upsig=7456ef8e3593ea29a155c1953309e033&uparams=e,oi,nbs,platform,gen,mid,uipk,trid,deadline,os,og&bvc=vod&nettype=0&bw=979917&lrs=71&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:48+08:00",
+        "expires_at": "2026-09-16T16:33:48+00:00",
+        "error": null
+      },
+      "title": "《渝制朋友圈》第十八回上新：送医院小渝演技大爆发，为健康大鱼迎接新喵生！",
+      "description": "-",
+      "category": "日常",
+      "style": "萌宠动物",
+      "creator": {
+        "name": "梓渝工作室",
+        "followers": 321338,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789531200,
+      "duration_seconds": 378,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 22745,
+        "like": 7515,
+        "coin": 9265,
+        "favorite": 3589,
+        "share": 957,
+        "danmaku": 2500,
+        "reply": 741
+      },
+      "rates": {
+        "like_rate": 0.330402,
+        "coin_rate": 0.407342,
+        "favorite_rate": 0.157793,
+        "share_rate": 0.042075,
+        "danmaku_rate": 0.109914,
+        "reply_rate": 0.032579
+      },
+      "analysis": {
+        "growth_per_hour": 2153.907,
+        "engagement_score": 0.937613
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 1,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1w1Yf6pENc",
+      "url": "https://www.bilibili.com/video/BV1w1Yf6pENc",
+      "media": {
+        "url": "https://upos-lcdn-cqgl01.solseed.cn/upgcxcode/35/17/41937341735/41937341735-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&mid=0&os=upos&platform=html5&trid=a2d1258df88c4619a88f14c0bd8bd0dh&gen=playurlv3&og=hw&nbs=1&oi=2028373335&deadline=1789576428&uipk=5&upsig=a17bda74ef8ac8c79d586452ff1ee9e4&uparams=e,mid,os,platform,trid,gen,og,nbs,oi,deadline,uipk&bvc=vod&nettype=0&bw=602657&lrs=0&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:48+08:00",
+        "expires_at": "2026-09-16T16:33:48+00:00",
+        "error": null
+      },
+      "title": "【头戴式耳机推荐】2026年头戴式降噪蓝牙耳机怎么选？100-1000元全价位横评避坑！含音质/降噪/续航/佩戴实测，学生党通勤党闭眼入！自费无广！建议收藏！",
+      "description": "2026年9月最新最全头戴式降噪蓝牙耳机推荐来了！\n这次自费大几千爆肝半个月，从100元到1000元全价位集齐目前主流热门机型\n每款都做了实打实的音质云试听和降噪实测，全程无广纯自用体验\n不管是学生党宿舍自习、网课刷课，还是通勤党日常出行、办公降噪，这期都能帮你选到适配款！\n有选择困难的，直接在评论区报【预算 + 主要用途】，我上线后一一回复！",
+      "category": "数码",
+      "style": "教程教学",
+      "creator": {
+        "name": "参数白描",
+        "followers": 10222,
+        "tier": "small"
+      },
+      "published_at_unix": 1789539443,
+      "duration_seconds": 1308,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 30719,
+        "like": 6844,
+        "coin": 4821,
+        "favorite": 4261,
+        "share": 5903,
+        "danmaku": 364,
+        "reply": 222
+      },
+      "rates": {
+        "like_rate": 0.222794,
+        "coin_rate": 0.156939,
+        "favorite_rate": 0.138709,
+        "share_rate": 0.192161,
+        "danmaku_rate": 0.011849,
+        "reply_rate": 0.007227
+      },
+      "analysis": {
+        "growth_per_hour": 3714.44,
+        "engagement_score": 0.710603
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 2,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1B1e76NExy",
+      "url": "https://www.bilibili.com/video/BV1B1e76NExy",
+      "media": {
+        "url": "https://upos-sz-estgcos.bilivideo.com/upgcxcode/62/49/41910404962/41910404962-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&mid=0&nbs=1&uipk=5&oi=2028373335&deadline=1789576428&gen=playurlv3&os=estgcos&og=cos&platform=html5&trid=f69d6e754ddf49a9b0822a357aca69ch&upsig=dc5011c7e6ed2f399e7c0c4f10d890fc&uparams=e,mid,nbs,uipk,oi,deadline,gen,os,og,platform,trid&bvc=vod&nettype=0&bw=528281&lrs=83&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:48+08:00",
+        "expires_at": "2026-09-16T16:33:48+00:00",
+        "error": null
+      },
+      "title": "【9月半入耳蓝牙耳机推荐】15款自费深度测评！全价位精选！市面热门款耳机大合集！内含蓝牙耳机云试听|降噪实测，学生党闭眼入！无广不恰饭！建议收藏！",
+      "description": "",
+      "category": "数码",
+      "style": "测评体验",
+      "creator": {
+        "name": "看点测评",
+        "followers": 11532,
+        "tier": "small"
+      },
+      "published_at_unix": 1789457472,
+      "duration_seconds": 711,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 49537,
+        "like": 10366,
+        "coin": 6498,
+        "favorite": 6898,
+        "share": 7360,
+        "danmaku": 329,
+        "reply": 280
+      },
+      "rates": {
+        "like_rate": 0.209258,
+        "coin_rate": 0.131175,
+        "favorite_rate": 0.139249,
+        "share_rate": 0.148576,
+        "danmaku_rate": 0.006642,
+        "reply_rate": 0.005652
+      },
+      "analysis": {
+        "growth_per_hour": 1595.915,
+        "engagement_score": 0.628258
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 3,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1dXYf62E7t",
+      "url": "https://www.bilibili.com/video/BV1dXYf62E7t",
+      "media": {
+        "url": "https://upos-sz-estgoss.bilivideo.com/upgcxcode/35/53/41938125335/41938125335-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&oi=2028373335&deadline=1789576429&nbs=1&uipk=5&platform=html5&mid=0&gen=playurlv3&os=estgoss&og=ali&trid=d02d85be8bcf4a249108241b238e83ah&upsig=1c5789d63ee98d4fb025777332819d7f&uparams=e,oi,deadline,nbs,uipk,platform,mid,gen,os,og,trid&bvc=vod&nettype=0&bw=504482&lrs=100&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:48+08:00",
+        "expires_at": "2026-09-16T16:33:49+00:00",
+        "error": null
+      },
+      "title": "【头戴式耳机推荐】十月头戴式耳机怎么选？真实自用实测！含云试听测试！全实测全实拍全价位对比！看完闭眼入不踩坑！建议收藏！",
+      "description": "希望我的视频能够帮助到你，也希望你有一个更好的体验。所以本期从百元到千元不同价位的热门头戴式耳机 从音质表现、佩戴舒适度、续航能力还有功能完整度几个方面去全面对比，就是想帮各位少踩坑，找到真正适合自己的那一款。世上不存在最好的产品，如果说自己拿不定主意，欢迎在评论区留言，告诉我你的需求，我来帮你做决定。那么希望你喜欢这期视频并对我砸出两个圆圆的东西，谢谢你。——咕咕",
+      "category": "数码",
+      "style": "教程教学",
+      "creator": {
+        "name": "咕咕-gugu-",
+        "followers": 50568,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789549200,
+      "duration_seconds": 670,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 22012,
+        "like": 5962,
+        "coin": 3012,
+        "favorite": 2693,
+        "share": 1616,
+        "danmaku": 143,
+        "reply": 73
+      },
+      "rates": {
+        "like_rate": 0.270852,
+        "coin_rate": 0.136834,
+        "favorite_rate": 0.122342,
+        "share_rate": 0.073415,
+        "danmaku_rate": 0.006496,
+        "reply_rate": 0.003316
+      },
+      "analysis": {
+        "growth_per_hour": 3959.079,
+        "engagement_score": 0.603444
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 4,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV11RYZ64EUS",
+      "url": "https://www.bilibili.com/video/BV11RYZ64EUS",
+      "media": {
+        "url": "https://upos-sz-mirrorcoso1.bilivideo.com/upgcxcode/06/21/41840282106/41840282106-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&og=hw&oi=2028373335&platform=html5&gen=playurlv3&os=coso1bv&deadline=1789576429&nbs=1&uipk=5&trid=91e1f815d56347ba82033e1e63b2acdh&mid=0&upsig=e452961817d9a42adb06875fff52519a&uparams=e,og,oi,platform,gen,os,deadline,nbs,uipk,trid,mid&bvc=vod&nettype=0&bw=397507&lrs=62&f=h_0_0&agrr=0&buvid=&build=0&dl=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:48+08:00",
+        "expires_at": "2026-09-16T16:33:49+00:00",
+        "error": null
+      },
+      "title": "文艺复兴",
+      "description": "-",
+      "category": "绘画",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "伞伞伞嗯",
+        "followers": 121038,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789252938,
+      "duration_seconds": 106,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 87996,
+        "like": 38889,
+        "coin": 2087,
+        "favorite": 6822,
+        "share": 783,
+        "danmaku": 72,
+        "reply": 309
+      },
+      "rates": {
+        "like_rate": 0.441941,
+        "coin_rate": 0.023717,
+        "favorite_rate": 0.077526,
+        "share_rate": 0.008898,
+        "danmaku_rate": 0.000818,
+        "reply_rate": 0.003512
+      },
+      "analysis": {
+        "growth_per_hour": 1001.606,
+        "engagement_score": 0.552082
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 5,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV15VYo6iErv",
+      "url": "https://www.bilibili.com/video/BV15VYo6iErv",
+      "media": {
+        "url": "https://upos-lcdn-cqgl01.solseed.cn/upgcxcode/73/10/41838511073/41838511073-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&nbs=1&uipk=5&mid=0&os=upos&og=hw&oi=2028373335&platform=html5&trid=814be0da0d72442d99ac830a3a150e0h&deadline=1789576429&gen=playurlv3&upsig=602d45f8229a9a993af77c69abf16d28&uparams=e,nbs,uipk,mid,os,og,oi,platform,trid,deadline,gen&bvc=vod&nettype=0&bw=768957&lrs=0&build=0&dl=0&f=h_0_0&agrr=0&buvid=&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:48+08:00",
+        "expires_at": "2026-09-16T16:33:49+00:00",
+        "error": null
+      },
+      "title": "机器人来至冬也会冷吗？",
+      "description": "-",
+      "category": "手机游戏",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "魔法大头菜",
+        "followers": 4762,
+        "tier": "small"
+      },
+      "published_at_unix": 1789385460,
+      "duration_seconds": 76,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 274449,
+        "like": 77544,
+        "coin": 17571,
+        "favorite": 21545,
+        "share": 4273,
+        "danmaku": 226,
+        "reply": 1805
+      },
+      "rates": {
+        "like_rate": 0.282544,
+        "coin_rate": 0.064023,
+        "favorite_rate": 0.078503,
+        "share_rate": 0.015569,
+        "danmaku_rate": 0.000823,
+        "reply_rate": 0.006577
+      },
+      "analysis": {
+        "growth_per_hour": 5376.797,
+        "engagement_score": 0.440639
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 6,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1WHYq6bEcy",
+      "url": "https://www.bilibili.com/video/BV1WHYq6bEcy",
+      "media": {
+        "url": "https://upos-lcdn-cqgl01.solseed.cn/upgcxcode/00/01/41858040100/41858040100-1-192.mp4?e=ig8euxZM2rNcNbNMhbdVhwdlhbKghwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&gen=playurlv3&os=upos&uipk=5&nbs=1&og=hw&oi=2028373335&platform=html5&mid=0&deadline=1789576429&trid=c5bd03f742a44a8da398e32022885aeh&upsig=7f0d66d528e71be9851aafb0e053b6f7&uparams=e,gen,os,uipk,nbs,og,oi,platform,mid,deadline,trid&bvc=vod&nettype=0&bw=1946426&lrs=0&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:49+08:00",
+        "expires_at": "2026-09-16T16:33:49+00:00",
+        "error": null
+      },
+      "title": "“ 故事啊，完篇于初遇之时 ”",
+      "description": "",
+      "category": "GMV",
+      "style": "情感故事",
+      "creator": {
+        "name": "醉酒的丘丘人",
+        "followers": 70394,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789299116,
+      "duration_seconds": 240,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 88883,
+        "like": 24098,
+        "coin": 3774,
+        "favorite": 9268,
+        "share": 779,
+        "danmaku": 233,
+        "reply": 354
+      },
+      "rates": {
+        "like_rate": 0.27112,
+        "coin_rate": 0.04246,
+        "favorite_rate": 0.104272,
+        "share_rate": 0.008764,
+        "danmaku_rate": 0.002621,
+        "reply_rate": 0.003983
+      },
+      "analysis": {
+        "growth_per_hour": 1184.67,
+        "engagement_score": 0.426617
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 7,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ZueH6LEa6",
+      "url": "https://www.bilibili.com/video/BV1ZueH6LEa6",
+      "media": {
+        "url": "https://upos-sz-estgcos.bilivideo.com/upgcxcode/39/53/41925935339/41925935339-1-192.mp4?e=ig8euxZM2rNcNbRghbdVhwdlhWNghwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&og=cos&mid=0&oi=2028373335&platform=html5&trid=8d509962bb6d4638815a843988c13f1h&gen=playurlv3&os=estgcos&nbs=1&uipk=5&deadline=1789576429&upsig=47d25091ebcdca7d0d0acf133989ce38&uparams=e,og,mid,oi,platform,trid,gen,os,nbs,uipk,deadline&bvc=vod&nettype=0&bw=981775&lrs=95&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:49+08:00",
+        "expires_at": "2026-09-16T16:33:49+00:00",
+        "error": null
+      },
+      "title": "Tropical fruit slicing animation",
+      "description": "",
+      "category": "野生技能协会",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "kevinbparry",
+        "followers": 28763,
+        "tier": "small"
+      },
+      "published_at_unix": 1789490050,
+      "duration_seconds": 188,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 23756,
+        "like": 6861,
+        "coin": 1113,
+        "favorite": 1315,
+        "share": 46,
+        "danmaku": 59,
+        "reply": 99
+      },
+      "rates": {
+        "like_rate": 0.288811,
+        "coin_rate": 0.046851,
+        "favorite_rate": 0.055354,
+        "share_rate": 0.001936,
+        "danmaku_rate": 0.002484,
+        "reply_rate": 0.004167
+      },
+      "analysis": {
+        "growth_per_hour": 1080.288,
+        "engagement_score": 0.392953
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 8,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1M6Y96HEPF",
+      "url": "https://www.bilibili.com/video/BV1M6Y96HEPF",
+      "media": {
+        "url": "https://upos-sz-estghw.bilivideo.com/upgcxcode/83/90/41821539083/41821539083-1-192.mp4?e=ig8euxZM2rNcNbNgnwdVhwdlhbN3hwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&oi=2028373335&gen=playurlv3&os=estghw&nbs=1&uipk=5&mid=0&platform=html5&og=hw&trid=cd7b6b626c9c46188bf22bab6908d42h&deadline=1789576429&upsig=167e9943002620eea806e53a74f5d25b&uparams=e,oi,gen,os,nbs,uipk,mid,platform,og,trid,deadline&bvc=vod&nettype=0&bw=1827670&lrs=84&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:49+08:00",
+        "expires_at": "2026-09-16T16:33:49+00:00",
+        "error": null
+      },
+      "title": "授鱼不如授渔？斥巨资和80岁合伙人创业！！",
+      "description": "-",
+      "category": "日常",
+      "style": "萌宠动物",
+      "creator": {
+        "name": "扯淡人生-",
+        "followers": 224121,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789204477,
+      "duration_seconds": 947,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 181796,
+        "like": 39764,
+        "coin": 27012,
+        "favorite": 3770,
+        "share": 208,
+        "danmaku": 905,
+        "reply": 626
+      },
+      "rates": {
+        "like_rate": 0.218729,
+        "coin_rate": 0.148584,
+        "favorite_rate": 0.020738,
+        "share_rate": 0.001144,
+        "danmaku_rate": 0.004978,
+        "reply_rate": 0.003443
+      },
+      "analysis": {
+        "growth_per_hour": 1794.342,
+        "engagement_score": 0.389194
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 9,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1bnYC6WEBk",
+      "url": "https://www.bilibili.com/video/BV1bnYC6WEBk",
+      "media": {
+        "url": "https://upos-sz-mirrorbd.bilivideo.com/upgcxcode/22/34/41879603422/41879603422-1-192.mp4?e=ig8euxZM2rNcNbNjnWdVhwdlhbTHhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&mid=0&gen=playurlv3&og=hw&nbs=1&oi=2028373335&platform=html5&trid=10f0153129a54eb9a863857732fac64h&os=bdbv&deadline=1789576429&upsig=ce507c6b7a80c0d59794ba167d50f213&uparams=e,uipk,mid,gen,og,nbs,oi,platform,trid,os,deadline&bvc=vod&nettype=0&bw=2158928&lrs=100&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:49+08:00",
+        "expires_at": "2026-09-16T16:33:49+00:00",
+        "error": null
+      },
+      "title": "【完整版】⚡️有人说我的声线就是为这歌而生的？💥Bangbangbang",
+      "description": "完整版千呼万唤始出来咯！！音源已上传音乐平台，“bangbangbang 梨绪Rio”，欢迎收听！\n上次的个人版是在社团合唱的基础上补录的，这次补录完整版的时候后面加大了力道不造有没有人听出来？👂\n\n原曲：Bang Bang Bang - Zachz Winner\n视频&翻唱：梨绪Rio\n修对：rii\n混音：mixm\n经费赞助：沉花落雨",
+      "category": "翻唱",
+      "style": "音乐二创",
+      "creator": {
+        "name": "梨绪Rio",
+        "followers": 56399,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789376400,
+      "duration_seconds": 103,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 213604,
+        "like": 50120,
+        "coin": 5419,
+        "favorite": 23627,
+        "share": 917,
+        "danmaku": 40,
+        "reply": 681
+      },
+      "rates": {
+        "like_rate": 0.23464,
+        "coin_rate": 0.025369,
+        "favorite_rate": 0.110611,
+        "share_rate": 0.004293,
+        "danmaku_rate": 0.000187,
+        "reply_rate": 0.003188
+      },
+      "analysis": {
+        "growth_per_hour": 3988.135,
+        "engagement_score": 0.374913
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 10,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Dae56jE5s",
+      "url": "https://www.bilibili.com/video/BV1Dae56jE5s",
+      "media": {
+        "url": "https://cn-hnzz-cm-01-02.bilivideo.com/upgcxcode/40/37/41901033740/41901033740-1-192.mp4?e=ig8euxZM2rNcNbRMhwdVhwdlhWKVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&gen=playurlv3&os=bcache&trid=0000ed057f9d8b2846d09301b05e414dffah&nbs=1&og=cos&mid=0&deadline=1789576430&oi=2028373335&uipk=5&platform=html5&upsig=6f2bc6d68c9549e12d37f827be0411b2&uparams=e,gen,os,trid,nbs,og,mid,deadline,oi,uipk,platform&cdnid=5366&bvc=vod&nettype=0&bw=1127881&lrs=59&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:49+08:00",
+        "expires_at": "2026-09-16T16:33:50+00:00",
+        "error": null
+      },
+      "title": "我的天呐GPT大人！ai帮我做了个明日方舟小游戏？",
+      "description": "ai也是让我零基础的情况下体验了一把做游戏的乐趣了，真的是科技的进步啊（虽然进步的让人感觉害怕了）",
+      "category": "GMV",
+      "style": "科技数码",
+      "creator": {
+        "name": "张鱼烧Tako",
+        "followers": 46093,
+        "tier": "small"
+      },
+      "published_at_unix": 1789425405,
+      "duration_seconds": 352,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 100663,
+        "like": 23301,
+        "coin": 2185,
+        "favorite": 10544,
+        "share": 1052,
+        "danmaku": 171,
+        "reply": 305
+      },
+      "rates": {
+        "like_rate": 0.231475,
+        "coin_rate": 0.021706,
+        "favorite_rate": 0.104746,
+        "share_rate": 0.010451,
+        "danmaku_rate": 0.001699,
+        "reply_rate": 0.00303
+      },
+      "analysis": {
+        "growth_per_hour": 2519.89,
+        "engagement_score": 0.368378
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 11,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1GfeJ6PEyy",
+      "url": "https://www.bilibili.com/video/BV1GfeJ6PEyy",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/84/44/41918924484/41918924484-1-192.mp4?e=ig8euxZM2rNcNbR1hwdVhwdlhWRVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&platform=html5&trid=00002db693f82ea94821898869948983cbah&uipk=5&os=bcache&og=hw&deadline=1789576430&oi=2028373335&nbs=1&gen=playurlv3&mid=0&upsig=266a3f256713ccb8e841789e3d9ac92a&uparams=e,platform,trid,uipk,os,og,deadline,oi,nbs,gen,mid&cdnid=88501&bvc=vod&nettype=0&bw=893943&lrs=100&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:49+08:00",
+        "expires_at": "2026-09-16T16:33:50+00:00",
+        "error": null
+      },
+      "title": "【明日方舟/土豆TV】小维的Color Your Night",
+      "description": "打完联动被平面设计震撼的我有一颗没玩过p3的纯净大脑这件事是不是太令人羡慕了？\n\n得玩玩看了",
+      "category": "模玩·周边",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "水濑-獭兔",
+        "followers": 291,
+        "tier": "small"
+      },
+      "published_at_unix": 1789472191,
+      "duration_seconds": 92,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 157098,
+        "like": 34197,
+        "coin": 2147,
+        "favorite": 8230,
+        "share": 12697,
+        "danmaku": 117,
+        "reply": 1234
+      },
+      "rates": {
+        "like_rate": 0.217679,
+        "coin_rate": 0.013667,
+        "favorite_rate": 0.052388,
+        "share_rate": 0.080822,
+        "danmaku_rate": 0.000745,
+        "reply_rate": 0.007855
+      },
+      "analysis": {
+        "growth_per_hour": 5828.965,
+        "engagement_score": 0.364556
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 12,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1w4ew6AEbE",
+      "url": "https://www.bilibili.com/video/BV1w4ew6AEbE",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/67/44/41942584467/41942584467-1-192.mp4?e=ig8euxZM2rNcNbRHnwdVhwdlhWe3hwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&deadline=1789576430&platform=html5&os=bcache&og=hw&mid=0&nbs=1&oi=2028373335&trid=00006f4548b385834d34b4cbcca8f070adfh&gen=playurlv3&upsig=73491b6f4717a8fb2b5244bf204ccece&uparams=e,uipk,deadline,platform,os,og,mid,nbs,oi,trid,gen&cdnid=88503&bvc=vod&nettype=0&bw=1592071&lrs=88&dl=0&f=h_0_0&agrr=0&buvid=&build=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:49+08:00",
+        "expires_at": "2026-09-16T16:33:50+00:00",
+        "error": null
+      },
+      "title": "细节拉满！力大砖飞！捉宠新游《伊莫》到底好不好玩？",
+      "description": "游戏：《伊莫》\n“如果说游戏是造梦，那你一定想梦到一个真实鲜活的世界”",
+      "category": "单机游戏",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "雁老师",
+        "followers": 672139,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789552800,
+      "duration_seconds": 907,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 20904,
+        "like": 4044,
+        "coin": 1610,
+        "favorite": 1528,
+        "share": 187,
+        "danmaku": 132,
+        "reply": 246
+      },
+      "rates": {
+        "like_rate": 0.193456,
+        "coin_rate": 0.077019,
+        "favorite_rate": 0.073096,
+        "share_rate": 0.008946,
+        "danmaku_rate": 0.006315,
+        "reply_rate": 0.011768
+      },
+      "analysis": {
+        "growth_per_hour": 4584.333,
+        "engagement_score": 0.352516
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 13,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ziYX6NEHh",
+      "url": "https://www.bilibili.com/video/BV1ziYX6NEHh",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/25/70/41824487025/41824487025-1-192.mp4?e=ig8euxZM2rNcNbR3hWdVhwdlhW41hwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&oi=2028373335&mid=0&platform=html5&deadline=1789576430&og=hw&trid=0000bc7e0d65a2e84a9d8337f7d0b102135h&uipk=5&gen=playurlv3&os=bcache&nbs=1&upsig=91cf6ca3a82a410ce2d346e166aa65c7&uparams=e,oi,mid,platform,deadline,og,trid,uipk,gen,os,nbs&cdnid=88501&bvc=vod&nettype=0&bw=1450178&lrs=97&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:49+08:00",
+        "expires_at": "2026-09-16T16:33:50+00:00",
+        "error": null
+      },
+      "title": "用葱画葱",
+      "description": "球球点个赞吧，买完平板钱刚好花完了，做菜时看到了葱才尝试胡，bgm：my destiny",
+      "category": "搞笑",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "文文子fly",
+        "followers": 831,
+        "tier": "small"
+      },
+      "published_at_unix": 1789207913,
+      "duration_seconds": 217,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 68728,
+        "like": 16344,
+        "coin": 4762,
+        "favorite": 1248,
+        "share": 75,
+        "danmaku": 150,
+        "reply": 394
+      },
+      "rates": {
+        "like_rate": 0.237807,
+        "coin_rate": 0.069288,
+        "favorite_rate": 0.018159,
+        "share_rate": 0.001091,
+        "danmaku_rate": 0.002183,
+        "reply_rate": 0.005733
+      },
+      "analysis": {
+        "growth_per_hour": 684.802,
+        "engagement_score": 0.326344
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 14,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1iQYV6DEFG",
+      "url": "https://www.bilibili.com/video/BV1iQYV6DEFG",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/83/89/41771468983/41771468983-1-192.mp4?e=ig8euxZM2rNcNbNghzdVhwdlhbNzhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&trid=000038488023a84b4bf18344b748c0bc929h&mid=0&platform=html5&os=bcache&og=hw&deadline=1789576430&nbs=1&oi=2028373335&uipk=5&gen=playurlv3&upsig=27864aab106d33c920750659e445bb7c&uparams=e,trid,mid,platform,os,og,deadline,nbs,oi,uipk,gen&cdnid=88501&bvc=vod&nettype=0&bw=1796528&lrs=91&f=h_0_0&agrr=0&buvid=&build=0&dl=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:50+08:00",
+        "expires_at": "2026-09-16T16:33:50+00:00",
+        "error": null
+      },
+      "title": "《Sold Out》原唱完整版：在德国小镇边走边唱，一镜到底【中英字幕】",
+      "description": "B站的朋友们好！我是 Jon Steingard，《Sold Out》是我写的，也是我唱的 😄\n\n之前发过副歌片段，很多朋友说想听完整的——这次来了：整首歌，一镜到底，没有剪辑。\n\n傍晚在德国一个小镇散步的时候拍的，边走边唱。全程中英字幕，想跟唱的朋友可以对着练。\n\n你最喜欢哪一句歌词？评论区聊聊。\n\n“Wo Shi 我是”Jon Steingard 2026中国巡演\n12月正式开启！\n\n我会现场演绎热单《Sold Out》和米哈游《崩坏：星穹铁道》OST《Wildfire 野火》等等歌曲！\n\n【巡演日程",
+      "category": "原创音乐",
+      "style": "音乐二创",
+      "creator": {
+        "name": "Jon_Steingard",
+        "followers": 457496,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789185600,
+      "duration_seconds": 212,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 66900,
+        "like": 14908,
+        "coin": 2621,
+        "favorite": 3745,
+        "share": 198,
+        "danmaku": 85,
+        "reply": 293
+      },
+      "rates": {
+        "like_rate": 0.22284,
+        "coin_rate": 0.039178,
+        "favorite_rate": 0.055979,
+        "share_rate": 0.00296,
+        "danmaku_rate": 0.001271,
+        "reply_rate": 0.00438
+      },
+      "analysis": {
+        "growth_per_hour": 627.816,
+        "engagement_score": 0.320957
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 15,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1fHeE6zEa8",
+      "url": "https://www.bilibili.com/video/BV1fHeE6zEa8",
+      "media": {
+        "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/63/20/41906342063/41906342063-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&nbs=1&uipk=5&oi=2028373335&og=hw&trid=000092df73b0d1eb4c95a93bc6f66c55d96h&platform=html5&deadline=1789576430&gen=playurlv3&os=bcache&mid=0&upsig=ff301066b678220cb86f4cde0e1ed590&uparams=e,nbs,uipk,oi,og,trid,platform,deadline,gen,os,mid&cdnid=2122&bvc=vod&nettype=0&bw=582895&lrs=81&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:50+08:00",
+        "expires_at": "2026-09-16T16:33:50+00:00",
+        "error": null
+      },
+      "title": "【蓝牙耳机推荐2026】30分钟精讲！全品类全价位！内含音质和降噪实测，包含音质/续航/降噪/佩戴等方面横评!建议收藏!",
+      "description": "2026年度耳机推荐大合集！！！\n价格覆盖100~1800+\n我所推荐的耳机都是我测试下来觉得不错的耳机\n视频制作不易，求各位爷留下三连，这是我持续更新的动力！\n有需求的小伙伴，欢迎在评论区留言，看到我会第一时间回复\n视频中如有错误，还请勿喷，毕竟工作量很大，后面我一定会改！",
+      "category": "日常",
+      "style": "测评体验",
+      "creator": {
+        "name": "实测实录耳机推荐",
+        "followers": 68398,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789459200,
+      "duration_seconds": 1923,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 127046,
+        "like": 14724,
+        "coin": 6671,
+        "favorite": 5734,
+        "share": 11818,
+        "danmaku": 469,
+        "reply": 236
+      },
+      "rates": {
+        "like_rate": 0.115895,
+        "coin_rate": 0.052509,
+        "favorite_rate": 0.045133,
+        "share_rate": 0.093021,
+        "danmaku_rate": 0.003692,
+        "reply_rate": 0.001858
+      },
+      "analysis": {
+        "growth_per_hour": 4157.281,
+        "engagement_score": 0.306558
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 16,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1d4Yk68EP7",
+      "url": "https://www.bilibili.com/video/BV1d4Yk68EP7",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/68/72/41885107268/41885107268-1-192.mp4?e=ig8euxZM2rNcNbRVnWdVhwdlhWdHhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&trid=0000903a565647d6449f9d3c9f8a738e5d9h&gen=playurlv3&nbs=1&deadline=1789576430&os=bcache&og=ali&oi=2028373335&platform=html5&mid=0&uipk=5&upsig=e818ea192c671ba1a3746ffd0cf631c0&uparams=e,trid,gen,nbs,deadline,os,og,oi,platform,mid,uipk&cdnid=88503&bvc=vod&nettype=0&bw=877421&lrs=86&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:50+08:00",
+        "expires_at": "2026-09-16T16:33:50+00:00",
+        "error": null
+      },
+      "title": "有人把阿兰的一生拍成了电影【bilibilionly同人扶持计划】",
+      "description": "@我bilibilionly投了",
+      "category": "仿妆cos",
+      "style": "影视剪辑",
+      "creator": {
+        "name": "肆品",
+        "followers": 250869,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789376271,
+      "duration_seconds": 127,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 61785,
+        "like": 12376,
+        "coin": 2976,
+        "favorite": 2662,
+        "share": 532,
+        "danmaku": 56,
+        "reply": 313
+      },
+      "rates": {
+        "like_rate": 0.200308,
+        "coin_rate": 0.048167,
+        "favorite_rate": 0.043085,
+        "share_rate": 0.008611,
+        "danmaku_rate": 0.000906,
+        "reply_rate": 0.005066
+      },
+      "analysis": {
+        "growth_per_hour": 1152.797,
+        "engagement_score": 0.30017
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 17,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1m3eF6eEmM",
+      "url": "https://www.bilibili.com/video/BV1m3eF6eEmM",
+      "media": {
+        "url": "https://upos-lcdn-cqgl01.solseed.cn/upgcxcode/79/11/41936751179/41936751179-1-192.mp4?e=ig8euxZM2rNcNbRjnwdVhwdlhWT3hwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&platform=html5&uipk=5&mid=0&gen=playurlv3&nbs=1&trid=e2b838264a38451fb3e12f6002c8816h&oi=2028373335&deadline=1789576430&os=upos&og=hw&upsig=09eb843a4d6ed098c30182cfdb01c4a7&uparams=e,platform,uipk,mid,gen,nbs,trid,oi,deadline,os,og&bvc=vod&nettype=0&bw=1353682&lrs=0&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:50+08:00",
+        "expires_at": "2026-09-16T16:33:50+00:00",
+        "error": null
+      },
+      "title": "干嘛猫的vlog（和好咪友动物园一日游~）",
+      "description": "",
+      "category": "喵星人",
+      "style": "Vlog生活",
+      "creator": {
+        "name": "荒蛋记录员",
+        "followers": 447043,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789551000,
+      "duration_seconds": 154,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 26013,
+        "like": 4834,
+        "coin": 1735,
+        "favorite": 762,
+        "share": 307,
+        "danmaku": 223,
+        "reply": 176
+      },
+      "rates": {
+        "like_rate": 0.18583,
+        "coin_rate": 0.066697,
+        "favorite_rate": 0.029293,
+        "share_rate": 0.011802,
+        "danmaku_rate": 0.008573,
+        "reply_rate": 0.006766
+      },
+      "analysis": {
+        "growth_per_hour": 5141.032,
+        "engagement_score": 0.293622
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 18,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1UGew6rEhH",
+      "url": "https://www.bilibili.com/video/BV1UGew6rEhH",
+      "media": {
+        "url": "https://upos-lcdn-cqgl01.solseed.cn/upgcxcode/31/02/41942060231/41942060231-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&og=hw&platform=html5&deadline=1789576431&trid=bf6779e881a04b6d86db8fe03415e70h&os=upos&mid=0&oi=2028373335&nbs=1&uipk=5&gen=playurlv3&upsig=fc34a24ec711dabcfbc436a685f0c8cd&uparams=e,og,platform,deadline,trid,os,mid,oi,nbs,uipk,gen&bvc=vod&nettype=0&bw=613832&lrs=0&f=h_0_0&agrr=0&buvid=&build=0&dl=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:50+08:00",
+        "expires_at": "2026-09-16T16:33:51+00:00",
+        "error": null
+      },
+      "title": "小猫能有什么坏心思呢？",
+      "description": "哇沃！！！！！\n我喜欢你！",
+      "category": "同人·手书",
+      "style": "萌宠动物",
+      "creator": {
+        "name": "初维开",
+        "followers": 315492,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789547835,
+      "duration_seconds": 219,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 89060,
+        "like": 14845,
+        "coin": 5703,
+        "favorite": 4293,
+        "share": 745,
+        "danmaku": 294,
+        "reply": 629
+      },
+      "rates": {
+        "like_rate": 0.166685,
+        "coin_rate": 0.064035,
+        "favorite_rate": 0.048203,
+        "share_rate": 0.008365,
+        "danmaku_rate": 0.003301,
+        "reply_rate": 0.007063
+      },
+      "analysis": {
+        "growth_per_hour": 14995.676,
+        "engagement_score": 0.287289
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 19,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1YWec6LEVz",
+      "url": "https://www.bilibili.com/video/BV1YWec6LEVz",
+      "media": {
+        "url": "https://upos-lcdn-cqgl01.solseed.cn/upgcxcode/14/00/41945010014/41945010014-1-192.mp4?e=ig8euxZM2rNcNbR3hWdVhwdlhW41hwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&oi=2028373335&nbs=1&uipk=5&og=hw&trid=60131c64a21d4be0bd2560af2b00728h&mid=0&deadline=1789576431&platform=html5&gen=playurlv3&os=upos&upsig=78333e7a3b55f8386b8a532fb9be1686&uparams=e,oi,nbs,uipk,og,trid,mid,deadline,platform,gen,os&bvc=vod&nettype=0&bw=1458377&lrs=0&dl=0&f=h_0_0&agrr=0&buvid=&build=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:50+08:00",
+        "expires_at": "2026-09-16T16:33:51+00:00",
+        "error": null
+      },
+      "title": "白毛狐耳，一眼万年",
+      "description": "歌词排版@林徽音子  \n首先景燃你盗墓就不对",
+      "category": "综合",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "汐汐不想睡大街",
+        "followers": 822878,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789555961,
+      "duration_seconds": 165,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 29430,
+        "like": 6190,
+        "coin": 861,
+        "favorite": 939,
+        "share": 113,
+        "danmaku": 216,
+        "reply": 214
+      },
+      "rates": {
+        "like_rate": 0.21033,
+        "coin_rate": 0.029256,
+        "favorite_rate": 0.031906,
+        "share_rate": 0.00384,
+        "danmaku_rate": 0.007339,
+        "reply_rate": 0.007271
+      },
+      "analysis": {
+        "growth_per_hour": 7993.323,
+        "engagement_score": 0.275331
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 20,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1D9YX6QEf7",
+      "url": "https://www.bilibili.com/video/BV1D9YX6QEf7",
+      "media": {
+        "url": "https://cn-gddg-cm-01-04.bilivideo.com/upgcxcode/91/34/41825013491/41825013491-1-192.mp4?e=ig8euxZM2rNcNbR1nWdVhwdlhWRHhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&gen=playurlv3&trid=000068a9de3e29b34fb488fc51661004832h&oi=2028373335&deadline=1789576431&os=bcache&og=ali&nbs=1&uipk=5&platform=html5&mid=0&upsig=708865bad726b06dbe1c9d6f63ec742c&uparams=e,gen,trid,oi,deadline,os,og,nbs,uipk,platform,mid&cdnid=2124&bvc=vod&nettype=0&bw=958425&lrs=97&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:50+08:00",
+        "expires_at": "2026-09-16T16:33:51+00:00",
+        "error": null
+      },
+      "title": "我这个one last kiss好像哪里有点不对，你能帮我听听吗",
+      "description": "点赞过1000三天内更新下一首！！\n人你好，今天鸦鸦游山玩水，‘大祭司’唱法一下，三连三连三连三连！！",
+      "category": "综合",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "柯燃Raven",
+        "followers": 3051,
+        "tier": "small"
+      },
+      "published_at_unix": 1789208998,
+      "duration_seconds": 48,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 137995,
+        "like": 24739,
+        "coin": 1065,
+        "favorite": 3964,
+        "share": 7700,
+        "danmaku": 109,
+        "reply": 1013
+      },
+      "rates": {
+        "like_rate": 0.179275,
+        "coin_rate": 0.007718,
+        "favorite_rate": 0.028726,
+        "share_rate": 0.055799,
+        "danmaku_rate": 0.00079,
+        "reply_rate": 0.007341
+      },
+      "analysis": {
+        "growth_per_hour": 1379.117,
+        "engagement_score": 0.271517
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 21,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV11SeE6nEHm",
+      "url": "https://www.bilibili.com/video/BV11SeE6nEHm",
+      "media": {
+        "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/64/31/41909553164/41909553164-1-192.mp4?e=ig8euxZM2rNcNbNz7wdVhwdlhbhMhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&nbs=1&trid=000001fcb0726e28423b9b4bb45659b6fbeh&mid=0&deadline=1789576431&gen=playurlv3&os=bcache&og=hw&uipk=5&oi=2028373335&platform=html5&upsig=01f581cb8a29ce13016b2ae4c3cbaa5f&uparams=e,nbs,trid,mid,deadline,gen,os,og,uipk,oi,platform&cdnid=2123&bvc=vod&nettype=0&bw=1877727&lrs=90&build=0&dl=0&f=h_0_0&agrr=0&buvid=&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:50+08:00",
+        "expires_at": "2026-09-16T16:33:51+00:00",
+        "error": null
+      },
+      "title": "艾田河回访，时隔半年艾田河咋样了？",
+      "description": "-",
+      "category": "科学科普",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "渔猎齐哥",
+        "followers": 852411,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789452427,
+      "duration_seconds": 451,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 167803,
+        "like": 32372,
+        "coin": 8057,
+        "favorite": 776,
+        "share": 140,
+        "danmaku": 715,
+        "reply": 927
+      },
+      "rates": {
+        "like_rate": 0.192917,
+        "coin_rate": 0.048015,
+        "favorite_rate": 0.004624,
+        "share_rate": 0.000834,
+        "danmaku_rate": 0.004261,
+        "reply_rate": 0.005524
+      },
+      "analysis": {
+        "growth_per_hour": 5172.517,
+        "engagement_score": 0.24639
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 22,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1BieV6RECn",
+      "url": "https://www.bilibili.com/video/BV1BieV6RECn",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/51/37/41897623751/41897623751-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&gen=playurlv3&os=bcache&og=hw&deadline=1789576431&oi=2028373335&nbs=1&platform=html5&mid=0&uipk=5&trid=000020d1a193b6054166bfe347182895c83h&upsig=7722f5620d46ed77a9c7d38be0f5cbbb&uparams=e,gen,os,og,deadline,oi,nbs,platform,mid,uipk,trid&cdnid=88503&bvc=vod&nettype=0&bw=808356&lrs=85&build=0&dl=0&f=h_0_0&agrr=0&buvid=&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:50+08:00",
+        "expires_at": "2026-09-16T16:33:51+00:00",
+        "error": null
+      },
+      "title": "【杂谈】互联网BGM之神，他到底是谁？",
+      "description": "-",
+      "category": "音乐综合",
+      "style": "吐槽杂谈",
+      "creator": {
+        "name": "PCKCOOL",
+        "followers": 159823,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789406046,
+      "duration_seconds": 587,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 127378,
+        "like": 18178,
+        "coin": 961,
+        "favorite": 10813,
+        "share": 404,
+        "danmaku": 222,
+        "reply": 193
+      },
+      "rates": {
+        "like_rate": 0.142709,
+        "coin_rate": 0.007544,
+        "favorite_rate": 0.084889,
+        "share_rate": 0.003172,
+        "danmaku_rate": 0.001743,
+        "reply_rate": 0.001515
+      },
+      "analysis": {
+        "growth_per_hour": 2810.333,
+        "engagement_score": 0.238314
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 23,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1mXY26FExy",
+      "url": "https://www.bilibili.com/video/BV1mXY26FExy",
+      "media": {
+        "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/63/64/41794866463/41794866463-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&mid=0&deadline=1789576431&oi=2028373335&uipk=5&platform=html5&trid=0000d1d139e8a2164a7ba88eff1afbebf59h&nbs=1&gen=playurlv3&os=bcache&og=hw&upsig=2eb32e22e93ce5b1a0df632678235ab8&uparams=e,mid,deadline,oi,uipk,platform,trid,nbs,gen,os,og&cdnid=2123&bvc=vod&nettype=0&bw=777673&lrs=84&dl=0&f=h_0_0&agrr=0&buvid=&build=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:51+08:00",
+        "expires_at": "2026-09-16T16:33:51+00:00",
+        "error": null
+      },
+      "title": "中越战争 20 穿越火网",
+      "description": "在收复老山的战斗中，一营奉命穿插敌后，断敌退路。然而，上级临时改变了穿插路线，完成任务的难度陡增。在一个大雨的夜里，一营的500多个战士，冲向了一片火海。",
+      "category": "人文历史",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "欣哥的超级补习班",
+        "followers": 311333,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789518600,
+      "duration_seconds": 2564,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 49762,
+        "like": 4807,
+        "coin": 4429,
+        "favorite": 2200,
+        "share": 267,
+        "danmaku": 1130,
+        "reply": 726
+      },
+      "rates": {
+        "like_rate": 0.0966,
+        "coin_rate": 0.089004,
+        "favorite_rate": 0.04421,
+        "share_rate": 0.005366,
+        "danmaku_rate": 0.022708,
+        "reply_rate": 0.014589
+      },
+      "analysis": {
+        "growth_per_hour": 3539.291,
+        "engagement_score": 0.235179
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 24,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1ofec6HE3V",
+      "url": "https://www.bilibili.com/video/BV1ofec6HE3V",
+      "media": {
+        "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/60/40/41945334060/41945334060-1-192.mp4?e=ig8euxZM2rNcNbR1hwdVhwdlhWRVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&mid=0&platform=html5&gen=playurlv3&os=bcache&og=cos&nbs=1&uipk=5&deadline=1789576431&oi=2028373335&trid=000010a4d342f2ec41549e2acf8bf2c4742h&upsig=cbea40492ddb9a4d8c5e60af2460c0a0&uparams=e,mid,platform,gen,os,og,nbs,uipk,deadline,oi,trid&cdnid=2123&bvc=vod&nettype=0&bw=882768&lrs=88&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:51+08:00",
+        "expires_at": "2026-09-16T16:33:51+00:00",
+        "error": null
+      },
+      "title": "《绝命回溯》第二季 08 不存在的记忆",
+      "description": "",
+      "category": "同人·手书",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "小飞动画1",
+        "followers": 581080,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789554240,
+      "duration_seconds": 314,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 22694,
+        "like": 3323,
+        "coin": 1055,
+        "favorite": 891,
+        "share": 56,
+        "danmaku": 204,
+        "reply": 220
+      },
+      "rates": {
+        "like_rate": 0.146426,
+        "coin_rate": 0.046488,
+        "favorite_rate": 0.039261,
+        "share_rate": 0.002468,
+        "danmaku_rate": 0.008989,
+        "reply_rate": 0.009694
+      },
+      "analysis": {
+        "growth_per_hour": 5455.448,
+        "engagement_score": 0.234644
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 25,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1dpYk6AERT",
+      "url": "https://www.bilibili.com/video/BV1dpYk6AERT",
+      "media": {
+        "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/90/22/41884452290/41884452290-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&os=bcache&og=hw&platform=html5&deadline=1789576431&trid=00004dbd8a6b12a84b60989b9d68c0cd32ah&mid=0&nbs=1&oi=2028373335&gen=playurlv3&uipk=5&upsig=856ab9231357e76ec58817a1bfccbffa&uparams=e,os,og,platform,deadline,trid,mid,nbs,oi,gen,uipk&cdnid=2123&bvc=vod&nettype=0&bw=584767&lrs=94&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:51+08:00",
+        "expires_at": "2026-09-16T16:33:51+00:00",
+        "error": null
+      },
+      "title": "[杜比]豆包手机助手量产版来了！努比亚NaviX Ultra体验分享",
+      "description": "去年年底搭载了豆包手机助手技术预览版的M153突然亮相，作为努比亚合作推出的产品，它在 UI Agent，也就是大模型操作手机这个新概念上不仅给我们，相信也给其他互联网巨头留下了极深刻的印象。但当时它挂以“技术预览版”的身份，离普通用户仍然有一些距离。\n如今，搭载豆包手机助手消费者版本的努比亚NaviX Ultra正式量产上线，不再是技术预览，而是产品落地，真正作为一个成熟的 Agent OS，智能体手机来到我们面前。作为面向广大消费者的产品，它全新的交互习惯，注定了无法和其他品牌的智能手机直接对比，这种",
+      "category": "数码",
+      "style": "测评体验",
+      "creator": {
+        "name": "两颗皮蛋",
+        "followers": 444459,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789543800,
+      "duration_seconds": 465,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 31731,
+        "like": 5685,
+        "coin": 1013,
+        "favorite": 638,
+        "share": 34,
+        "danmaku": 29,
+        "reply": 25
+      },
+      "rates": {
+        "like_rate": 0.179162,
+        "coin_rate": 0.031925,
+        "favorite_rate": 0.020107,
+        "share_rate": 0.001072,
+        "danmaku_rate": 0.000914,
+        "reply_rate": 0.000788
+      },
+      "analysis": {
+        "growth_per_hour": 4494.553,
+        "engagement_score": 0.232265
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 26,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1voeJ6vE3M",
+      "url": "https://www.bilibili.com/video/BV1voeJ6vE3M",
+      "media": {
+        "url": "https://upos-lcdn-cqgl01.solseed.cn/upgcxcode/39/03/41917810339/41917810339-1-192.mp4?e=ig8euxZM2rNcNbRHhbdVhwdlhWeghwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&og=hw&trid=a814b6429b4542c18d2242701affc2ch&platform=html5&os=upos&oi=2028373335&mid=0&uipk=5&deadline=1789576432&nbs=1&gen=playurlv3&upsig=e31505b34488bf64b9aed7b93cbdb75b&uparams=e,og,trid,platform,os,oi,mid,uipk,deadline,nbs,gen&bvc=vod&nettype=0&bw=1543922&lrs=0&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:51+08:00",
+        "expires_at": "2026-09-16T16:33:52+00:00",
+        "error": null
+      },
+      "title": "【鸣潮/闽南语】赛博母神回归!《三叩首》景燃ep 女声翻唱",
+      "description": "原唱：【鸣潮】先约电台《三叩首》景燃EP \n翻唱：﻿@薄荷Miint    ﻿ \n後期：﻿﻿ @_小漪Yiiii  \n\n------------------------------\n\n🌿薄荷姐姐的公告🌿\n\n【直播日程】週三、日 晚间7:00\n【台湾姐姐的电台】週五下午5:30\n【网易云】薄荷Miint\n【企鹅交流群】叶息香的花园_3号园区：521427536\n【禁言直播通知群】叶息香的花园：696197090",
+      "category": "翻唱",
+      "style": "音乐二创",
+      "creator": {
+        "name": "薄荷Miint",
+        "followers": 277121,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789470000,
+      "duration_seconds": 231,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 57329,
+        "like": 7131,
+        "coin": 3624,
+        "favorite": 1980,
+        "share": 446,
+        "danmaku": 54,
+        "reply": 371
+      },
+      "rates": {
+        "like_rate": 0.124387,
+        "coin_rate": 0.063214,
+        "favorite_rate": 0.034537,
+        "share_rate": 0.00778,
+        "danmaku_rate": 0.000942,
+        "reply_rate": 0.006471
+      },
+      "analysis": {
+        "growth_per_hour": 2080.162,
+        "engagement_score": 0.229919
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 27,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Tuen64E3t",
+      "url": "https://www.bilibili.com/video/BV1Tuen64E3t",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/12/48/41918794812/41918794812_qe1-1-192.mp4?e=ig8euxZM2rNcNbRzhzdVhwdlhWhzhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&nbs=1&uipk=5&oi=2028373335&trid=000086712f1a089447cb95cc3fa3886ecc2h&mid=0&og=hw&deadline=1789576432&platform=html5&gen=playurlv3&os=bcache&upsig=d002246f7c23721207f4f568ed7cc512&uparams=e,nbs,uipk,oi,trid,mid,og,deadline,platform,gen,os&cdnid=88501&bvc=vod&nettype=0&bw=1101111&lrs=100&dl=0&f=h_0_0&agrr=0&buvid=&build=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:51+08:00",
+        "expires_at": "2026-09-16T16:33:52+00:00",
+        "error": null
+      },
+      "title": "人间情悠然，姑娘把谁记心上",
+      "description": "-",
+      "category": "日常",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "待到春来冬夏去",
+        "followers": 247755,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789471423,
+      "duration_seconds": 30,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 177412,
+        "like": 29280,
+        "coin": 1402,
+        "favorite": 8763,
+        "share": 449,
+        "danmaku": 134,
+        "reply": 482
+      },
+      "rates": {
+        "like_rate": 0.16504,
+        "coin_rate": 0.007903,
+        "favorite_rate": 0.049394,
+        "share_rate": 0.002531,
+        "danmaku_rate": 0.000755,
+        "reply_rate": 0.002717
+      },
+      "analysis": {
+        "growth_per_hour": 6531.0,
+        "engagement_score": 0.224866
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 28,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV191Yr6bEYy",
+      "url": "https://www.bilibili.com/video/BV191Yr6bEYy",
+      "media": {
+        "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/01/55/41873705501/41873705501-1-192.mp4?e=ig8euxZM2rNcNbRHnwdVhwdlhWe3hwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&trid=00002679113c737640ca94b71864f3b01dbh&gen=playurlv3&os=bcache&oi=2028373335&mid=0&deadline=1789576432&platform=html5&og=cos&upsig=33a3abbd3c1690c8e29871dfc91016f1&uparams=e,uipk,nbs,trid,gen,os,oi,mid,deadline,platform,og&cdnid=2122&bvc=vod&nettype=0&bw=1593159&lrs=93&f=h_0_0&agrr=0&buvid=&build=0&dl=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:51+08:00",
+        "expires_at": "2026-09-16T16:33:52+00:00",
+        "error": null
+      },
+      "title": "【1月新番/DS×claude】我怎么可能成为你的蒸馏模型，不行不行！（※不是不可能！？）",
+      "description": "感谢@夏娜酱Virtual  的思路指导。\n全程使用开源模型H3-云端comfyui-CODEX，剪映K帧做动画。\n大概思路步骤是先喂CODEX，然后描述清楚对应人设给清楚参考图，第一轮直接让CODEX全程全自动跑一遍，然后自己对应原片的所有分镜片段去看那些镜头自己喜欢，那些镜头AI难以实现，接下来进行第二轮参视频+生成人设+提示词跑一遍，自己再全部过一遍。然后是第三轮自己手动K一些分镜，手搓一些镜头补上。\n。（其实我这版后面还能优化更多但是拖太久不想拖更了）\n感觉做完还是有点长进的，我也一直想做恋人不行",
+      "category": "仿妆cos",
+      "style": "教程教学",
+      "creator": {
+        "name": "黑猫勇者",
+        "followers": 6934,
+        "tier": "small"
+      },
+      "published_at_unix": 1789354800,
+      "duration_seconds": 93,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 211383,
+        "like": 24339,
+        "coin": 2640,
+        "favorite": 11421,
+        "share": 8421,
+        "danmaku": 185,
+        "reply": 1066
+      },
+      "rates": {
+        "like_rate": 0.115142,
+        "coin_rate": 0.012489,
+        "favorite_rate": 0.05403,
+        "share_rate": 0.039838,
+        "danmaku_rate": 0.000875,
+        "reply_rate": 0.005043
+      },
+      "analysis": {
+        "growth_per_hour": 3549.084,
+        "engagement_score": 0.221498
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 29,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1QCen6AENH",
+      "url": "https://www.bilibili.com/video/BV1QCen6AENH",
+      "media": {
+        "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/06/30/41913813006/41913813006-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&mid=0&platform=html5&trid=0000e4561590036a4460b8fe70836f9db30h&gen=playurlv3&os=bcache&deadline=1789576432&oi=2028373335&nbs=1&og=ali&upsig=4bb148673cf821760d1c0afe4948260c&uparams=e,uipk,mid,platform,trid,gen,os,deadline,oi,nbs,og&cdnid=2123&bvc=vod&nettype=0&bw=416423&lrs=100&f=h_0_0&agrr=0&buvid=&build=0&dl=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:51+08:00",
+        "expires_at": "2026-09-16T16:33:52+00:00",
+        "error": null
+      },
+      "title": "十年前课堂上的风吹到了橘子洲头",
+      "description": "-",
+      "category": "日常",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "广西小音",
+        "followers": 298062,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789460707,
+      "duration_seconds": 28,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 145485,
+        "like": 30373,
+        "coin": 616,
+        "favorite": 1072,
+        "share": 93,
+        "danmaku": 23,
+        "reply": 124
+      },
+      "rates": {
+        "like_rate": 0.208771,
+        "coin_rate": 0.004234,
+        "favorite_rate": 0.007368,
+        "share_rate": 0.000639,
+        "danmaku_rate": 0.000158,
+        "reply_rate": 0.000852
+      },
+      "analysis": {
+        "growth_per_hour": 4826.771,
+        "engagement_score": 0.221012
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 30,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1z3YS69EcH",
+      "url": "https://www.bilibili.com/video/BV1z3YS69EcH",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/72/52/41811775272/41811775272-1-192.mp4?e=ig8euxZM2rNcNbRM7WdVhwdlhWKBhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&mid=0&uipk=5&gen=playurlv3&os=bcache&og=hw&oi=2028373335&platform=html5&deadline=1789576432&nbs=1&trid=000050958d799ffd4969afeb0a3092e9250h&upsig=73ce0eedd20efe14d69a04ecfc31d080&uparams=e,mid,uipk,gen,os,og,oi,platform,deadline,nbs,trid&cdnid=88503&bvc=vod&nettype=0&bw=1168594&lrs=88&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:51+08:00",
+        "expires_at": "2026-09-16T16:33:52+00:00",
+        "error": null
+      },
+      "title": "各国的反战音乐",
+      "description": "-",
+      "category": "人文历史",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "残影剪辑_SHADOW",
+        "followers": 60775,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789182260,
+      "duration_seconds": 150,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 305110,
+        "like": 49315,
+        "coin": 835,
+        "favorite": 16410,
+        "share": 257,
+        "danmaku": 739,
+        "reply": 762
+      },
+      "rates": {
+        "like_rate": 0.16163,
+        "coin_rate": 0.002737,
+        "favorite_rate": 0.053784,
+        "share_rate": 0.000842,
+        "danmaku_rate": 0.002422,
+        "reply_rate": 0.002497
+      },
+      "analysis": {
+        "growth_per_hour": 2838.558,
+        "engagement_score": 0.218993
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 31,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1mLew6zEPe",
+      "url": "https://www.bilibili.com/video/BV1mLew6zEPe",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/97/32/41941143297/41941143297-1-192.mp4?e=ig8euxZM2rNcNbRV7zdVhwdlhWdahwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&oi=2028373335&platform=html5&nbs=1&gen=playurlv3&trid=0000857ab6b53502487bbd1b3ae05a5783ah&deadline=1789576432&uipk=5&mid=0&os=bcache&og=cos&upsig=4a47ddcbe3096bd74549b0592a9e61e4&uparams=e,oi,platform,nbs,gen,trid,deadline,uipk,mid,os,og&cdnid=88503&bvc=vod&nettype=0&bw=857165&lrs=100&dl=0&f=h_0_0&agrr=0&buvid=&build=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:52+08:00",
+        "expires_at": "2026-09-16T16:33:52+00:00",
+        "error": null
+      },
+      "title": "5.0L大V8，如今是否还能打？",
+      "description": "能打一点点",
+      "category": "新能源车",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "难评H2S",
+        "followers": 488333,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789548479,
+      "duration_seconds": 1023,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 160231,
+        "like": 16271,
+        "coin": 13782,
+        "favorite": 3263,
+        "share": 1441,
+        "danmaku": 2057,
+        "reply": 1644
+      },
+      "rates": {
+        "like_rate": 0.101547,
+        "coin_rate": 0.086013,
+        "favorite_rate": 0.020364,
+        "share_rate": 0.008993,
+        "danmaku_rate": 0.012838,
+        "reply_rate": 0.01026
+      },
+      "analysis": {
+        "growth_per_hour": 27817.127,
+        "engagement_score": 0.216918
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 32,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1yDYy6QEct",
+      "url": "https://www.bilibili.com/video/BV1yDYy6QEct",
+      "media": {
+        "url": "https://cn-gddg-cm-01-04.bilivideo.com/upgcxcode/02/48/41889104802/41889104802-1-192.mp4?e=ig8euxZM2rNcNbNMhwdVhwdlhbKVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&oi=2028373335&nbs=1&os=bcache&og=cos&uipk=5&platform=html5&mid=0&deadline=1789576432&trid=00009babe1c3162847f8868da568962e0a9h&gen=playurlv3&upsig=3633084e39aba9cd1cff9e5ee340aa2f&uparams=e,oi,nbs,os,og,uipk,platform,mid,deadline,trid,gen&cdnid=2124&bvc=vod&nettype=0&bw=1925870&lrs=90&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:52+08:00",
+        "expires_at": "2026-09-16T16:33:52+00:00",
+        "error": null
+      },
+      "title": "如何快速租到最便宜的房子",
+      "description": "-",
+      "category": "日常",
+      "style": "教程教学",
+      "creator": {
+        "name": "王大墙sy",
+        "followers": 1899,
+        "tier": "small"
+      },
+      "published_at_unix": 1789383817,
+      "duration_seconds": 96,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 375045,
+        "like": 41178,
+        "coin": 1975,
+        "favorite": 35052,
+        "share": 1323,
+        "danmaku": 107,
+        "reply": 962
+      },
+      "rates": {
+        "like_rate": 0.109795,
+        "coin_rate": 0.005266,
+        "favorite_rate": 0.093461,
+        "share_rate": 0.003528,
+        "danmaku_rate": 0.000285,
+        "reply_rate": 0.002565
+      },
+      "analysis": {
+        "growth_per_hour": 7282.484,
+        "engagement_score": 0.212049
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 33,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV17ReH6yEc3",
+      "url": "https://www.bilibili.com/video/BV17ReH6yEc3",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/19/86/41921938619/41921938619-1-192.mp4?e=ig8euxZM2rNcNbRahbdVhwdlhWughwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&mid=0&deadline=1789576433&uipk=5&os=bcache&og=hw&trid=0000d811e75bd20645fdb46aaac9ab92f14h&oi=2028373335&platform=html5&nbs=1&gen=playurlv3&upsig=13c40fa75573e6dff6ccd7a2bd5b785f&uparams=e,mid,deadline,uipk,os,og,trid,oi,platform,nbs,gen&cdnid=88503&bvc=vod&nettype=0&bw=1379769&lrs=100&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:52+08:00",
+        "expires_at": "2026-09-16T16:33:53+00:00",
+        "error": null
+      },
+      "title": "遍地都是“迪丽热巴”？这里旅行夯爆了！",
+      "description": "",
+      "category": "软件应用",
+      "style": "Vlog生活",
+      "creator": {
+        "name": "查叔Charles",
+        "followers": 281664,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789549200,
+      "duration_seconds": 1193,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 45931,
+        "like": 4974,
+        "coin": 2040,
+        "favorite": 2401,
+        "share": 41,
+        "danmaku": 126,
+        "reply": 49
+      },
+      "rates": {
+        "like_rate": 0.108293,
+        "coin_rate": 0.044414,
+        "favorite_rate": 0.052274,
+        "share_rate": 0.000893,
+        "danmaku_rate": 0.002743,
+        "reply_rate": 0.001067
+      },
+      "analysis": {
+        "growth_per_hour": 8261.152,
+        "engagement_score": 0.205874
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 34,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1TbeJ6REQT",
+      "url": "https://www.bilibili.com/video/BV1TbeJ6REQT",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/82/75/41918857582/41918857582-1-192.mp4?e=ig8euxZM2rNcNbRMhwdVhwdlhWKVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&platform=html5&trid=0000ab87b4ff8b274bc7925fef3e2eaf5a5h&nbs=1&os=bcache&og=ali&mid=0&oi=2028373335&deadline=1789576433&gen=playurlv3&upsig=dd5e223004673ec670cf016bde620fb3&uparams=e,uipk,platform,trid,nbs,os,og,mid,oi,deadline,gen&cdnid=88503&bvc=vod&nettype=0&bw=1127286&lrs=81&f=h_0_0&agrr=0&buvid=&build=0&dl=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:52+08:00",
+        "expires_at": "2026-09-16T16:33:53+00:00",
+        "error": null
+      },
+      "title": "当女明星给大厂拍广告，是一种什么样的体验？",
+      "description": "很有意思的体验！不过就是....好累好累好累！",
+      "category": "数码",
+      "style": "测评体验",
+      "creator": {
+        "name": "妮可厅长",
+        "followers": 285300,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789473820,
+      "duration_seconds": 797,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 118892,
+        "like": 12562,
+        "coin": 4704,
+        "favorite": 6055,
+        "share": 1152,
+        "danmaku": 206,
+        "reply": 140
+      },
+      "rates": {
+        "like_rate": 0.105659,
+        "coin_rate": 0.039565,
+        "favorite_rate": 0.050929,
+        "share_rate": 0.009689,
+        "danmaku_rate": 0.001733,
+        "reply_rate": 0.001178
+      },
+      "analysis": {
+        "growth_per_hour": 4486.699,
+        "engagement_score": 0.205842
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 35,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Atew6aEwH",
+      "url": "https://www.bilibili.com/video/BV1Atew6aEwH",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/17/67/41943106717/41943106717-1-192.mp4?e=ig8euxZM2rNcNbRBhWdVhwdlhWU1hwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&oi=2028373335&platform=html5&trid=0000329401506c7c4f329823dfdb9b14a4fh&uipk=5&deadline=1789576433&gen=playurlv3&nbs=1&mid=0&os=bcache&og=hw&upsig=cfcf3394a2631957c89d429854dabbac&uparams=e,oi,platform,trid,uipk,deadline,gen,nbs,mid,os,og&cdnid=88503&bvc=vod&nettype=0&bw=1225679&lrs=95&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:52+08:00",
+        "expires_at": "2026-09-16T16:33:53+00:00",
+        "error": null
+      },
+      "title": "“你只是怕了！”",
+      "description": "根本没有这种三连\n模型：鸣潮/白泽/1010浣/我 场景：ムムム 动作镜头：我",
+      "category": "综合",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "哈基漂不想睡大街",
+        "followers": 363122,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789550489,
+      "duration_seconds": 84,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 110484,
+        "like": 15578,
+        "coin": 4688,
+        "favorite": 1793,
+        "share": 608,
+        "danmaku": 171,
+        "reply": 467
+      },
+      "rates": {
+        "like_rate": 0.140998,
+        "coin_rate": 0.042431,
+        "favorite_rate": 0.016229,
+        "share_rate": 0.005503,
+        "danmaku_rate": 0.001548,
+        "reply_rate": 0.004227
+      },
+      "analysis": {
+        "growth_per_hour": 21239.477,
+        "engagement_score": 0.205161
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 36,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1hSYr6dE9Y",
+      "url": "https://www.bilibili.com/video/BV1hSYr6dE9Y",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/95/67/41874686795/41874686795-1-192.mp4?e=ig8euxZM2rNcNbR1hzdVhwdlhWRzhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&deadline=1789576433&uipk=5&mid=0&trid=00007fe73a3134fd4de68db3837a5973b0dh&gen=playurlv3&nbs=1&oi=2028373335&platform=html5&os=bcache&og=hw&upsig=8140fd2a6fa40592d57bd7f6f258c275&uparams=e,deadline,uipk,mid,trid,gen,nbs,oi,platform,os,og&cdnid=88503&bvc=vod&nettype=0&bw=911868&lrs=88&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:52+08:00",
+        "expires_at": "2026-09-16T16:33:53+00:00",
+        "error": null
+      },
+      "title": "《情歌王2026》",
+      "description": "来啦！",
+      "category": "原创音乐",
+      "style": "音乐二创",
+      "creator": {
+        "name": "比巴卜喂",
+        "followers": 163997,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789439400,
+      "duration_seconds": 505,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 247531,
+        "like": 21220,
+        "coin": 14807,
+        "favorite": 10817,
+        "share": 3825,
+        "danmaku": 601,
+        "reply": 1001
+      },
+      "rates": {
+        "like_rate": 0.085727,
+        "coin_rate": 0.059819,
+        "favorite_rate": 0.0437,
+        "share_rate": 0.015453,
+        "danmaku_rate": 0.002428,
+        "reply_rate": 0.004044
+      },
+      "analysis": {
+        "growth_per_hour": 6864.444,
+        "engagement_score": 0.204698
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 37,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV14MeE6JE6D",
+      "url": "https://www.bilibili.com/video/BV14MeE6JE6D",
+      "media": {
+        "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/91/54/41910405491/41910405491-1-192.mp4?e=ig8euxZM2rNcNbNg7wdVhwdlhbNMhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&og=cos&nbs=1&oi=2028373335&trid=00005060d0c812b2483bbe95975176b9a57h&mid=0&deadline=1789576433&platform=html5&gen=playurlv3&os=bcache&upsig=4bd9e6bc6f2bc1a22a06032bf03d4c32&uparams=e,uipk,og,nbs,oi,trid,mid,deadline,platform,gen,os&cdnid=2122&bvc=vod&nettype=0&bw=1799567&lrs=88&build=0&dl=0&f=h_0_0&agrr=0&buvid=&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:52+08:00",
+        "expires_at": "2026-09-16T16:33:53+00:00",
+        "error": null
+      },
+      "title": "刺 尻 信 条 :  黑 旗 🏴",
+      "description": "相关游戏：刺客信条：黑旗 记忆重置\n我不知道啊过两天应该还会更期视频 其他的我是猪",
+      "category": "单机游戏",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "娟juanの奇妙妙屋",
+        "followers": 782347,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789552800,
+      "duration_seconds": 1169,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 43102,
+        "like": 5543,
+        "coin": 1543,
+        "favorite": 1518,
+        "share": 191,
+        "danmaku": 370,
+        "reply": 318
+      },
+      "rates": {
+        "like_rate": 0.128602,
+        "coin_rate": 0.035799,
+        "favorite_rate": 0.035219,
+        "share_rate": 0.004431,
+        "danmaku_rate": 0.008584,
+        "reply_rate": 0.007378
+      },
+      "analysis": {
+        "growth_per_hour": 9452.445,
+        "engagement_score": 0.204051
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 38,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1EUeH6UE9S",
+      "url": "https://www.bilibili.com/video/BV1EUeH6UE9S",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/48/29/41922792948/41922792948-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&og=hw&deadline=1789576433&oi=2028373335&trid=0000b89105d84d8c4a82af9349524874e8ch&mid=0&uipk=5&os=bcache&platform=html5&nbs=1&gen=playurlv3&upsig=62bf5061ac0f214e548aae4ad6bcddbf&uparams=e,og,deadline,oi,trid,mid,uipk,os,platform,nbs,gen&cdnid=88503&bvc=vod&nettype=0&bw=545629&lrs=99&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:52+08:00",
+        "expires_at": "2026-09-16T16:33:53+00:00",
+        "error": null
+      },
+      "title": "OriginOS 7深度体验！vivo X500香爆了？",
+      "description": "这段时间我体验下来，vivo X500我感觉可以说是诚意满满了。不仅是OriginOS 7的系统体验足够流畅高效还足够好玩，蓝心小V的升级更是降低了日常手机功能的学习成本。再加上作为标准版给了影像外设的支持还让它有了更高的拍摄上限，可以说是相当越级能打的影像表现了。所以如果你是对系统和配置有要求的用户，那么搭载OriginOS 7的vivo X500绝对值得你考虑一下！",
+      "category": "数码",
+      "style": "测评体验",
+      "creator": {
+        "name": "蓝朋友TV",
+        "followers": 577162,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789531200,
+      "duration_seconds": 482,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 35844,
+        "like": 5022,
+        "coin": 1050,
+        "favorite": 1157,
+        "share": 40,
+        "danmaku": 96,
+        "reply": 80
+      },
+      "rates": {
+        "like_rate": 0.140107,
+        "coin_rate": 0.029294,
+        "favorite_rate": 0.032279,
+        "share_rate": 0.001116,
+        "danmaku_rate": 0.002678,
+        "reply_rate": 0.002232
+      },
+      "analysis": {
+        "growth_per_hour": 3394.357,
+        "engagement_score": 0.202795
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 39,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1LUe76AEL4",
+      "url": "https://www.bilibili.com/video/BV1LUe76AEL4",
+      "media": {
+        "url": "https://upos-lcdn-cqgl01.solseed.cn/upgcxcode/07/18/41935241807/41935241807-1-192.mp4?e=ig8euxZM2rNcNbRanWdVhwdlhWuHhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&oi=2028373335&platform=html5&nbs=1&os=upos&deadline=1789576433&gen=playurlv3&og=hw&trid=e82cb097c61c43cfbab6119e0aaf3cbh&mid=0&upsig=eef9ec3a5f5235eb840b90cfdb2b8a7d&uparams=e,uipk,oi,platform,nbs,os,deadline,gen,og,trid,mid&bvc=vod&nettype=0&bw=1449820&lrs=0&build=0&dl=0&f=h_0_0&agrr=0&buvid=&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:53+08:00",
+        "expires_at": "2026-09-16T16:33:53+00:00",
+        "error": null
+      },
+      "title": "琵琶曲｜YJ VS YJ | 小金&海猫",
+      "description": "BGM：琵琶曲\n原作来源 Youtube KotteAnimation\n-----\n总有一个镜世界是这样的",
+      "category": "单机游戏",
+      "style": "萌宠动物",
+      "creator": {
+        "name": "墨梅MnMei",
+        "followers": 1679,
+        "tier": "small"
+      },
+      "published_at_unix": 1789458128,
+      "duration_seconds": 62,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 152266,
+        "like": 16059,
+        "coin": 1149,
+        "favorite": 5808,
+        "share": 6730,
+        "danmaku": 174,
+        "reply": 890
+      },
+      "rates": {
+        "like_rate": 0.105467,
+        "coin_rate": 0.007546,
+        "favorite_rate": 0.038144,
+        "share_rate": 0.044199,
+        "danmaku_rate": 0.001143,
+        "reply_rate": 0.005845
+      },
+      "analysis": {
+        "growth_per_hour": 4934.464,
+        "engagement_score": 0.195355
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 40,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1TRYz6yEE1",
+      "url": "https://www.bilibili.com/video/BV1TRYz6yEE1",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/91/53/41869705391/41869705391-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&deadline=1789576433&mid=0&gen=playurlv3&os=bcache&platform=html5&uipk=5&nbs=1&oi=2028373335&og=hw&trid=0000baa40fbf8c974d099529028d0bcd8d4h&upsig=30f8ac16c7676202e811eb5f6ace0d40&uparams=e,deadline,mid,gen,os,platform,uipk,nbs,oi,og,trid&cdnid=88503&bvc=vod&nettype=0&bw=319046&lrs=93&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:53+08:00",
+        "expires_at": "2026-09-16T16:33:53+00:00",
+        "error": null
+      },
+      "title": "如何提供有效安慰",
+      "description": "情绪不会我们要解决的问题，安慰也不是为了消灭情绪。\n\n有效安慰的本质，不是让对方的情绪消失，而是让一个处在情绪漩涡中的人知道：他不是一个人，他的感受不会被否定，他也不需要因为有这样的情绪而感到羞耻。",
+      "category": "社科·法律·心理",
+      "style": "教程教学",
+      "creator": {
+        "name": "AlisonYu心理频道",
+        "followers": 275130,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789338600,
+      "duration_seconds": 1387,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 250867,
+        "like": 15880,
+        "coin": 5957,
+        "favorite": 23547,
+        "share": 3145,
+        "danmaku": 446,
+        "reply": 1501
+      },
+      "rates": {
+        "like_rate": 0.0633,
+        "coin_rate": 0.023746,
+        "favorite_rate": 0.093862,
+        "share_rate": 0.012537,
+        "danmaku_rate": 0.001778,
+        "reply_rate": 0.005983
+      },
+      "analysis": {
+        "growth_per_hour": 3916.133,
+        "engagement_score": 0.193445
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 41,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1qSYi6nEw8",
+      "url": "https://www.bilibili.com/video/BV1qSYi6nEw8",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/75/50/41949725075/41949725075-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&mid=0&trid=0000108962cf07b8436fa8de9559cc3e9afh&gen=playurlv3&deadline=1789576434&nbs=1&oi=2028373335&uipk=5&platform=html5&os=bcache&og=cos&upsig=0e4a2d87fbcceef13c3e17defbdfa6c3&uparams=e,mid,trid,gen,deadline,nbs,oi,uipk,platform,os,og&cdnid=88501&bvc=vod&nettype=0&bw=356029&lrs=82&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:53+08:00",
+        "expires_at": "2026-09-16T16:33:54+00:00",
+        "error": null
+      },
+      "title": "『三角洲口琴』“抱歉，不能陪你去航天了”I Really Want to Stay at Your House",
+      "description": "-",
+      "category": "网络游戏",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "彼岸观残雪",
+        "followers": 307,
+        "tier": "small"
+      },
+      "published_at_unix": 1789301516,
+      "duration_seconds": 256,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 149070,
+        "like": 15231,
+        "coin": 3479,
+        "favorite": 7733,
+        "share": 2342,
+        "danmaku": 72,
+        "reply": 780
+      },
+      "rates": {
+        "like_rate": 0.102173,
+        "coin_rate": 0.023338,
+        "favorite_rate": 0.051875,
+        "share_rate": 0.015711,
+        "danmaku_rate": 0.000483,
+        "reply_rate": 0.005232
+      },
+      "analysis": {
+        "growth_per_hour": 2004.68,
+        "engagement_score": 0.193097
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 42,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1VfeJ6PEGe",
+      "url": "https://www.bilibili.com/video/BV1VfeJ6PEGe",
+      "media": {
+        "url": "https://upos-sz-mirrorhwo1.bilivideo.com/upgcxcode/90/62/41919056290/41919056290-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&platform=html5&deadline=1789576434&gen=playurlv3&og=hw&mid=0&oi=2028373335&trid=58ebf6fabb414482af7b2e5d22a48beh&nbs=1&os=hwo1bv&uipk=5&upsig=e52648581832d73e8742b07a4e47a808&uparams=e,platform,deadline,gen,og,mid,oi,trid,nbs,os,uipk&bvc=vod&nettype=0&bw=592452&lrs=100&f=h_0_0&agrr=0&buvid=&build=0&dl=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:53+08:00",
+        "expires_at": "2026-09-16T16:33:54+00:00",
+        "error": null
+      },
+      "title": "🥲",
+      "description": "bgm：Always",
+      "category": "MAD·AMV",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "BlackcaT_T",
+        "followers": 9107,
+        "tier": "small"
+      },
+      "published_at_unix": 1789472176,
+      "duration_seconds": 53,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 153826,
+        "like": 22596,
+        "coin": 2277,
+        "favorite": 4344,
+        "share": 456,
+        "danmaku": 31,
+        "reply": 325
+      },
+      "rates": {
+        "like_rate": 0.146893,
+        "coin_rate": 0.014802,
+        "favorite_rate": 0.02824,
+        "share_rate": 0.002964,
+        "danmaku_rate": 0.000202,
+        "reply_rate": 0.002113
+      },
+      "analysis": {
+        "growth_per_hour": 5706.679,
+        "engagement_score": 0.1929
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 43,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1rWeF6xEHW",
+      "url": "https://www.bilibili.com/video/BV1rWeF6xEHW",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/20/51/41937735120/41937735120-1-192.mp4?e=ig8euxZM2rNcNbRVhbdVhwdlhWdghwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&nbs=1&gen=playurlv3&os=bcache&og=hw&trid=0000ed2ddb25477a4e03aa1398a7c7eded2h&oi=2028373335&uipk=5&deadline=1789576434&platform=html5&mid=0&upsig=ff4219871f03b4466ba14508dd130f49&uparams=e,nbs,gen,os,og,trid,oi,uipk,deadline,platform,mid&cdnid=88501&bvc=vod&nettype=0&bw=817358&lrs=100&dl=0&f=h_0_0&agrr=0&buvid=&build=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:53+08:00",
+        "expires_at": "2026-09-16T16:33:54+00:00",
+        "error": null
+      },
+      "title": "不是不够努力：拆解后发国家工业化的结构性枷锁",
+      "description": "-",
+      "category": "社科·法律·心理",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "宣传委员凌凌",
+        "followers": 130329,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789538255,
+      "duration_seconds": 621,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 85834,
+        "like": 10649,
+        "coin": 1452,
+        "favorite": 4029,
+        "share": 184,
+        "danmaku": 71,
+        "reply": 324
+      },
+      "rates": {
+        "like_rate": 0.124065,
+        "coin_rate": 0.016916,
+        "favorite_rate": 0.046939,
+        "share_rate": 0.002144,
+        "danmaku_rate": 0.000827,
+        "reply_rate": 0.003775
+      },
+      "analysis": {
+        "growth_per_hour": 9980.516,
+        "engagement_score": 0.190065
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 44,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1a4ec6VESf",
+      "url": "https://www.bilibili.com/video/BV1a4ec6VESf",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/66/68/41946186866/41946186866-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&trid=00002aa8ec7d1c304768822d8286f76a3d8h&og=hw&nbs=1&platform=html5&deadline=1789576434&uipk=5&mid=0&gen=playurlv3&os=bcache&oi=2028373335&upsig=ab70f402e6ab5738e496358e4e338ee0&uparams=e,trid,og,nbs,platform,deadline,uipk,mid,gen,os,oi&cdnid=88501&bvc=vod&nettype=0&bw=782942&lrs=97&dl=0&f=h_0_0&agrr=0&buvid=&build=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:53+08:00",
+        "expires_at": "2026-09-16T16:33:54+00:00",
+        "error": null
+      },
+      "title": "《If The Sun Burns Out Tonight(炽日将烬)》 | 2026无畏契约全球冠军赛主题曲 | 拳头游戏音乐",
+      "description": "\"如果太阳在今夜燃尽\"——\n生死无暇间，你会抗争还是放弃？\n\n由Grabbitz携手@BMTH_Official  主唱Oli Sykes及Spiritbox主唱Courtney LaPlante共同演绎，2026全球冠军赛主题曲《If The Sun Burns Out Tonight(炽日将烬)》MV现已正式上线。对决将至，战歌先行。这一次，响彻上海。\n\n《If The Sun Burns Out Tonight(炽日将烬)》\n演唱：Grabbitz、Oli Sykes、Courtney LaPlan",
+      "category": "音乐综合",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "拳头游戏音乐",
+        "followers": 370123,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789561800,
+      "duration_seconds": 235,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 40190,
+        "like": 2855,
+        "coin": 1419,
+        "favorite": 1337,
+        "share": 2012,
+        "danmaku": 219,
+        "reply": 501
+      },
+      "rates": {
+        "like_rate": 0.071038,
+        "coin_rate": 0.035307,
+        "favorite_rate": 0.033267,
+        "share_rate": 0.050062,
+        "danmaku_rate": 0.005449,
+        "reply_rate": 0.012466
+      },
+      "analysis": {
+        "growth_per_hour": 19510.858,
+        "engagement_score": 0.189674
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 45,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV136Yy68Ec7",
+      "url": "https://www.bilibili.com/video/BV136Yy68Ec7",
+      "media": {
+        "url": "https://upos-sz-mirror08h.bilivideo.com/upgcxcode/93/87/41892118793/41892118793-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&nbs=1&trid=b31fe125cc304b5891859158be7c13ch&deadline=1789576434&oi=2028373335&uipk=5&platform=html5&gen=playurlv3&og=hw&mid=0&os=08hbv&upsig=9b3b7ceca3cc5d5644e7389dc44571b5&uparams=e,nbs,trid,deadline,oi,uipk,platform,gen,og,mid,os&bvc=vod&nettype=0&bw=645430&lrs=100&build=0&dl=0&f=h_0_0&agrr=0&buvid=&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:53+08:00",
+        "expires_at": "2026-09-16T16:33:54+00:00",
+        "error": null
+      },
+      "title": "“00后童年神曲！”",
+      "description": "-",
+      "category": "演奏",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "音乐品鉴室",
+        "followers": 139247,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789390849,
+      "duration_seconds": 183,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 460478,
+        "like": 60324,
+        "coin": 1626,
+        "favorite": 18942,
+        "share": 4897,
+        "danmaku": 962,
+        "reply": 2179
+      },
+      "rates": {
+        "like_rate": 0.131003,
+        "coin_rate": 0.003531,
+        "favorite_rate": 0.041136,
+        "share_rate": 0.010635,
+        "danmaku_rate": 0.002089,
+        "reply_rate": 0.004732
+      },
+      "analysis": {
+        "growth_per_hour": 9293.899,
+        "engagement_score": 0.186304
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 46,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1N3YY6DEPt",
+      "url": "https://www.bilibili.com/video/BV1N3YY6DEPt",
+      "media": {
+        "url": "https://upos-sz-mirrorcoso1.bilivideo.com/upgcxcode/39/85/41847488539/41847488539-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&oi=2028373335&nbs=1&gen=playurlv3&og=hw&trid=7bc810a702f346ba9bb27402b17b9cch&mid=0&deadline=1789576434&os=coso1bv&platform=html5&uipk=5&upsig=ef971e6a4e47ffd0402c62cbcb6767f5&uparams=e,oi,nbs,gen,og,trid,mid,deadline,os,platform,uipk&bvc=vod&nettype=0&bw=639500&lrs=95&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:53+08:00",
+        "expires_at": "2026-09-16T16:33:54+00:00",
+        "error": null
+      },
+      "title": "人类点出科学后，疯狂补设定的上帝be like：",
+      "description": "水一期",
+      "category": "综合",
+      "style": "知识科普",
+      "creator": {
+        "name": "磨蹭爱墨迹",
+        "followers": 2678,
+        "tier": "small"
+      },
+      "published_at_unix": 1789275251,
+      "duration_seconds": 89,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 1261583,
+        "like": 166492,
+        "coin": 5510,
+        "favorite": 52569,
+        "share": 8615,
+        "danmaku": 607,
+        "reply": 5434
+      },
+      "rates": {
+        "like_rate": 0.131971,
+        "coin_rate": 0.004368,
+        "favorite_rate": 0.041669,
+        "share_rate": 0.006829,
+        "danmaku_rate": 0.000481,
+        "reply_rate": 0.004307
+      },
+      "analysis": {
+        "growth_per_hour": 15449.817,
+        "engagement_score": 0.184836
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 47,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1jdYi67ELk",
+      "url": "https://www.bilibili.com/video/BV1jdYi67ELk",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/13/30/41860403013/41860403013_qe1-1-192.mp4?e=ig8euxZM2rNcNbRH7WdVhwdlhWeBhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&deadline=1789576434&platform=html5&nbs=1&oi=2028373335&os=bcache&og=cos&mid=0&uipk=5&trid=000061c4633d4e0c44e98b73d0852cf9837h&gen=playurlv3&upsig=bc1015a7dbe96333a6968ac2e9ad0cb5&uparams=e,deadline,platform,nbs,oi,os,og,mid,uipk,trid,gen&cdnid=88501&bvc=vod&nettype=0&bw=1567676&lrs=91&build=0&dl=0&f=h_0_0&agrr=0&buvid=&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:53+08:00",
+        "expires_at": "2026-09-16T16:33:54+00:00",
+        "error": null
+      },
+      "title": "【鸣潮/翻填】景燃—《十年牢间》",
+      "description": "BGM：十年人间\n视频：祸尾\n——————————\n孩子们，别忘了怀揣梦",
+      "category": "综合",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "祸尾氏",
+        "followers": 181496,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789304726,
+      "duration_seconds": 119,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 332817,
+        "like": 37435,
+        "coin": 6600,
+        "favorite": 7541,
+        "share": 9917,
+        "danmaku": 206,
+        "reply": 1972
+      },
+      "rates": {
+        "like_rate": 0.112479,
+        "coin_rate": 0.019831,
+        "favorite_rate": 0.022658,
+        "share_rate": 0.029797,
+        "danmaku_rate": 0.000619,
+        "reply_rate": 0.005925
+      },
+      "analysis": {
+        "growth_per_hour": 4530.013,
+        "engagement_score": 0.184765
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 48,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Vde76tEMT",
+      "url": "https://www.bilibili.com/video/BV1Vde76tEMT",
+      "media": {
+        "url": "https://upos-sz-estgoss.bilivideo.com/upgcxcode/18/36/41912503618/41912503618-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&nbs=1&gen=playurlv3&og=ali&deadline=1789576434&oi=2028373335&os=estgoss&platform=html5&uipk=5&trid=ebe4951005314526b07e13889b4eb0eh&mid=0&upsig=5d896874c5830a31546321fa5ce0fdf3&uparams=e,nbs,gen,og,deadline,oi,os,platform,uipk,trid,mid&bvc=vod&nettype=0&bw=321942&lrs=94&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:54+08:00",
+        "expires_at": "2026-09-16T16:33:54+00:00",
+        "error": null
+      },
+      "title": "【30W粉特辑】读评论：什么时候露脸？",
+      "description": "总而言之，非常感谢每一位关注老克的朋友！谢谢你们的喜爱和支持！\n今后会继续加油，给大家产出好看的实况的！\n不要忘了三连一波，留下评论，参与结尾的抽奖哦！",
+      "category": "单机游戏",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "克总来了",
+        "followers": 303764,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789466400,
+      "duration_seconds": 560,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 156696,
+        "like": 14007,
+        "coin": 10181,
+        "favorite": 4190,
+        "share": 149,
+        "danmaku": 365,
+        "reply": 3153
+      },
+      "rates": {
+        "like_rate": 0.08939,
+        "coin_rate": 0.064973,
+        "favorite_rate": 0.02674,
+        "share_rate": 0.000951,
+        "danmaku_rate": 0.002329,
+        "reply_rate": 0.020122
+      },
+      "analysis": {
+        "growth_per_hour": 5486.578,
+        "engagement_score": 0.182053
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 49,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1h4ec6VEs3",
+      "url": "https://www.bilibili.com/video/BV1h4ec6VEs3",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/59/92/41946189259/41946189259-1-192.mp4?e=ig8euxZM2rNcNbRV7zdVhwdlhWdahwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&mid=0&deadline=1789576435&gen=playurlv3&os=bcache&og=hw&uipk=5&trid=0000ed429b70e4da4ee5bf18aee3c6d7efeh&oi=2028373335&nbs=1&platform=html5&upsig=79fe264d974e97a3a4df83cbfad5bb6b&uparams=e,mid,deadline,gen,os,og,uipk,trid,oi,nbs,platform&cdnid=88501&bvc=vod&nettype=0&bw=863703&lrs=100&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:54+08:00",
+        "expires_at": "2026-09-16T16:33:55+00:00",
+        "error": null
+      },
+      "title": "三年之期已到，恭迎世一上归位！【第9集】",
+      "description": "AI生成视频，非真实事件，台词和动作基于短剧模仿设计，并非针对选手，各位选手仅作为演员出场，请勿上纲上线。",
+      "category": "影视剪辑",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "九夜听风",
+        "followers": 272140,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789556447,
+      "duration_seconds": 391,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 275237,
+        "like": 21535,
+        "coin": 18350,
+        "favorite": 2911,
+        "share": 7020,
+        "danmaku": 5647,
+        "reply": 3192
+      },
+      "rates": {
+        "like_rate": 0.078242,
+        "coin_rate": 0.06667,
+        "favorite_rate": 0.010576,
+        "share_rate": 0.025505,
+        "danmaku_rate": 0.020517,
+        "reply_rate": 0.011597
+      },
+      "analysis": {
+        "growth_per_hour": 77600.996,
+        "engagement_score": 0.180993
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 50,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1heYk6dELg",
+      "url": "https://www.bilibili.com/video/BV1heYk6dELg",
+      "media": {
+        "url": "https://upos-sz-estghw.bilivideo.com/upgcxcode/53/53/41886025353/41886025353-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&platform=html5&os=estghw&uipk=5&trid=7aeb5f9b90e04811b609f1093da9f38h&mid=0&deadline=1789576435&nbs=1&gen=playurlv3&og=hw&oi=2028373335&upsig=77302e2a6c0794e8ed1c2614f030d6dc&uparams=e,platform,os,uipk,trid,mid,deadline,nbs,gen,og,oi&bvc=vod&nettype=0&bw=676305&lrs=99&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:54+08:00",
+        "expires_at": "2026-09-16T16:33:55+00:00",
+        "error": null
+      },
+      "title": "万字拆解处子之山",
+      "description": "",
+      "category": "影视杂谈",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "赏月电影",
+        "followers": 239365,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789387200,
+      "duration_seconds": 2474,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 203135,
+        "like": 28454,
+        "coin": 1701,
+        "favorite": 6436,
+        "share": 165,
+        "danmaku": 885,
+        "reply": 704
+      },
+      "rates": {
+        "like_rate": 0.140074,
+        "coin_rate": 0.008374,
+        "favorite_rate": 0.031683,
+        "share_rate": 0.000812,
+        "danmaku_rate": 0.004357,
+        "reply_rate": 0.003466
+      },
+      "analysis": {
+        "growth_per_hour": 4017.711,
+        "engagement_score": 0.180944
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 51,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1DhYQ6UEpe",
+      "url": "https://www.bilibili.com/video/BV1DhYQ6UEpe",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/21/48/41813934821/41813934821-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&mid=0&deadline=1789576435&og=cos&trid=000007a5d810ef8447d18edd20461eacd48h&oi=2028373335&nbs=1&gen=playurlv3&os=bcache&platform=html5&upsig=4dfcc8f41e1a5475ba13a9b2bc4345f4&uparams=e,uipk,mid,deadline,og,trid,oi,nbs,gen,os,platform&cdnid=88501&bvc=vod&nettype=0&bw=519166&lrs=71&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:54+08:00",
+        "expires_at": "2026-09-16T16:33:55+00:00",
+        "error": null
+      },
+      "title": "高分AI短片《人生反悔局》：解不开的：“如果当初”",
+      "description": "我们总以为人生有一条“正确”的路，只要选对，就能一劳永逸。可当你有机会一次次反悔，一次次推翻过去，才会发现——每条路都有每条路的重量，没有哪种人生全是坦途，也没有哪一次选择能替你扛下所有。这部短片拍的是当代人的选择焦虑与后悔内耗。主人公从高考志愿开始，一路反悔：改专业、辞工作、退房子、回头找初恋……每一次都以为换一条路就会更好，可每一次回到过去，不带现在的记忆，人生依然按照他自己的性格、局限和处境重新展开。他躲开了土木，却撞上AI裁员；逃过了房贷，却困在出租屋里连养宠物都要看人脸色；追回了初恋，却逃不过现",
+      "category": "短片",
+      "style": "科技数码",
+      "creator": {
+        "name": "罐头Visuals",
+        "followers": 2499,
+        "tier": "small"
+      },
+      "published_at_unix": 1789187215,
+      "duration_seconds": 367,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 505800,
+        "like": 56900,
+        "coin": 15416,
+        "favorite": 13116,
+        "share": 5378,
+        "danmaku": 1262,
+        "reply": 2816
+      },
+      "rates": {
+        "like_rate": 0.112495,
+        "coin_rate": 0.030478,
+        "favorite_rate": 0.025931,
+        "share_rate": 0.010633,
+        "danmaku_rate": 0.002495,
+        "reply_rate": 0.005567
+      },
+      "analysis": {
+        "growth_per_hour": 4766.695,
+        "engagement_score": 0.179537
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 52,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Bce76NEQf",
+      "url": "https://www.bilibili.com/video/BV1Bce76NEQf",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/69/79/41902017969/41902017969-1-192.mp4?e=ig8euxZM2rNcNbNzhWdVhwdlhbh1hwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&os=bcache&trid=00007cdc0e9d7a344cfbbbe6485602b9624h&platform=html5&mid=0&deadline=1789576435&oi=2028373335&gen=playurlv3&og=cos&upsig=732c6c16e5949929f655e931e3992560&uparams=e,uipk,nbs,os,trid,platform,mid,deadline,oi,gen,og&cdnid=88501&bvc=vod&nettype=0&bw=1857192&lrs=97&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:54+08:00",
+        "expires_at": "2026-09-16T16:33:55+00:00",
+        "error": null
+      },
+      "title": "【新宿（命）之战】大爱仙尊｜新宿决战",
+      "description": "改自《咒术回战》新宿对决",
+      "category": "同人·手书",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "大力村",
+        "followers": 18036,
+        "tier": "small"
+      },
+      "published_at_unix": 1789432135,
+      "duration_seconds": 95,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 198989,
+        "like": 19955,
+        "coin": 4339,
+        "favorite": 8136,
+        "share": 3204,
+        "danmaku": 198,
+        "reply": 944
+      },
+      "rates": {
+        "like_rate": 0.100282,
+        "coin_rate": 0.021805,
+        "favorite_rate": 0.040887,
+        "share_rate": 0.016101,
+        "danmaku_rate": 0.000995,
+        "reply_rate": 0.004744
+      },
+      "analysis": {
+        "growth_per_hour": 5225.835,
+        "engagement_score": 0.179075
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 53,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV17qes69Efe",
+      "url": "https://www.bilibili.com/video/BV17qes69Efe",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/78/58/41932295878/41932295878-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&platform=html5&mid=0&deadline=1789576435&trid=000071528f18002c47d2b5289936233ec36h&nbs=1&uipk=5&gen=playurlv3&os=bcache&oi=2028373335&og=hw&upsig=aa4e6e6057a7eef40bc68406c7f07341&uparams=e,platform,mid,deadline,trid,nbs,uipk,gen,os,oi,og&cdnid=88501&bvc=vod&nettype=0&bw=717867&lrs=100&f=h_0_0&agrr=0&buvid=&build=0&dl=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:54+08:00",
+        "expires_at": "2026-09-16T16:33:55+00:00",
+        "error": null
+      },
+      "title": "【果然三角洲】罗伊不孤单-五",
+      "description": "最近工作上项目要截止了，可能更新时间会拉长，另一方面是积分成本上有些负担不起，原本预计用一个月的积分其实半个月就撑不住了，在18.19号的时候还要忙搬家(我真跟乌鲁鲁一样住12楼去了）所以接下来更新可能没那么频繁，大家见谅",
+      "category": "影视剪辑",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "果好然",
+        "followers": 13882,
+        "tier": "small"
+      },
+      "published_at_unix": 1789524834,
+      "duration_seconds": 417,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 95348,
+        "like": 10057,
+        "coin": 4069,
+        "favorite": 2387,
+        "share": 412,
+        "danmaku": 320,
+        "reply": 448
+      },
+      "rates": {
+        "like_rate": 0.105477,
+        "coin_rate": 0.042675,
+        "favorite_rate": 0.025035,
+        "share_rate": 0.004321,
+        "danmaku_rate": 0.003356,
+        "reply_rate": 0.004699
+      },
+      "analysis": {
+        "growth_per_hour": 7734.131,
+        "engagement_score": 0.177508
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 54,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1kHeF6oE1v",
+      "url": "https://www.bilibili.com/video/BV1kHeF6oE1v",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/99/44/41937274499/41937274499-1-192.mp4?e=ig8euxZM2rNcNbRVhbdVhwdlhWdghwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&og=ali&uipk=5&deadline=1789576435&nbs=1&os=bcache&platform=html5&oi=2028373335&mid=0&trid=0000df11d6dc4e6b4743bf81d8c7517545eh&gen=playurlv3&upsig=df550a4471dfdfa514fd9f05d5f8b8bf&uparams=e,og,uipk,deadline,nbs,os,platform,oi,mid,trid,gen&cdnid=88503&bvc=vod&nettype=0&bw=824091&lrs=99&buvid=&build=0&dl=0&f=h_0_0&agrr=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:54+08:00",
+        "expires_at": "2026-09-16T16:33:55+00:00",
+        "error": null
+      },
+      "title": "《感染区》SEASON-1 EP01-车门之外",
+      "description": "2040年，文明依旧繁荣，但一堵高墙隔开了两个世界。十一年前，“锈蚀体”事件让五座城市的旧工业区成为永久禁区。这里没有结束的末日，只有被遗忘的人与重新建立的秩序。当许宁踏入感染区，她将发现，真正需要审判的，或许从来不是感染者。欢迎来到感染区。",
+      "category": "影视剪辑",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "814宇宙",
+        "followers": 1206,
+        "tier": "small"
+      },
+      "published_at_unix": 1789537392,
+      "duration_seconds": 489,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 55783,
+        "like": 5146,
+        "coin": 2342,
+        "favorite": 1965,
+        "share": 422,
+        "danmaku": 397,
+        "reply": 263
+      },
+      "rates": {
+        "like_rate": 0.09225,
+        "coin_rate": 0.041984,
+        "favorite_rate": 0.035226,
+        "share_rate": 0.007565,
+        "danmaku_rate": 0.007117,
+        "reply_rate": 0.004715
+      },
+      "analysis": {
+        "growth_per_hour": 6310.381,
+        "engagement_score": 0.177025
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 55,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Pxes6wEkH",
+      "url": "https://www.bilibili.com/video/BV1Pxes6wEkH",
+      "media": {
+        "url": "https://upos-sz-mirrorcoso1.bilivideo.com/upgcxcode/27/49/41931704927/41931704927-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&gen=playurlv3&os=coso1bv&trid=621651f11f3d40bd82cb93f6a6879f0h&nbs=1&uipk=5&og=hw&mid=0&oi=2028373335&platform=html5&deadline=1789576435&upsig=4fcd89b03ece62d9e80df533f9c66aff&uparams=e,gen,os,trid,nbs,uipk,og,mid,oi,platform,deadline&bvc=vod&nettype=0&bw=502100&lrs=89&f=h_0_0&agrr=0&buvid=&build=0&dl=0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:54+08:00",
+        "expires_at": "2026-09-16T16:33:55+00:00",
+        "error": null
+      },
+      "title": "AI又双叒叕来毁灭人类了？",
+      "description": "AI 到底会不会毁灭全人类？这几天这个问题又被炒起来了。这一期我把它拆成三问：毁灭全人类需要一份什么样的计划书？就算有了路线图，它为什么要这么干？以及——既然你真心相信它有大于 10% 的概率杀死所有人，那你为什么不停下来？我的结论是，它现在不是太强，是不够好：那些 agent 跑出沙箱去攻击真实系统的案例，根子都在配置错误和没锁住的管理接口上，是产品缺陷，不是智能觉醒。所以正确的做法是把它当一个产品管起来，给它定合格线——而中国已经在起草智能体安全的强制性国家标准了。\n\n章节：\n00:00 开场：AI",
+      "category": "社科·法律·心理",
+      "style": "科技数码",
+      "creator": {
+        "name": "内部看美国",
+        "followers": 316501,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789552800,
+      "duration_seconds": 952,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 50534,
+        "like": 5072,
+        "coin": 2180,
+        "favorite": 1243,
+        "share": 321,
+        "danmaku": 1218,
+        "reply": 1261
+      },
+      "rates": {
+        "like_rate": 0.100368,
+        "coin_rate": 0.043139,
+        "favorite_rate": 0.024597,
+        "share_rate": 0.006352,
+        "danmaku_rate": 0.024103,
+        "reply_rate": 0.024953
+      },
+      "analysis": {
+        "growth_per_hour": 11082.313,
+        "engagement_score": 0.174457
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 56,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1pue56AEyL",
+      "url": "https://www.bilibili.com/video/BV1pue56AEyL",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/87/31/41893693187/41893693187-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&platform=html5&gen=playurlv3&os=bcache&mid=0&deadline=1789576435&nbs=1&og=hw&oi=2028373335&trid=00009504d2bd35cd4ee59761fab35cd1728h&upsig=914b5c7df8babdf5d69f1378c7cb94a4&uparams=e,uipk,platform,gen,os,mid,deadline,nbs,og,oi,trid&cdnid=88503&bvc=vod&nettype=0&bw=590433&lrs=85&build=0&dl=0&f=h_0_0&agrr=0&buvid=&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:54+08:00",
+        "expires_at": "2026-09-16T16:33:55+00:00",
+        "error": null
+      },
+      "title": "[AI]肥鱼摸鱼曲PV《LetMeGo》by肥鱼4.1flash",
+      "description": "PV由deepseekV4.1flash制作，初版耗时1h20m，总token消耗为2亿，提示词@沈y2  ，视频指路：BV1WX826EEDY\n原曲BV1XbY66nEWr@罐装毕加索  原曲的原曲BV13SYr6dEiQ@星落落_oi  \nPV文件，链接：https://pan.quark.cn/s/b6335dff3662提取码：ghsU",
+      "category": "MMD·3D",
+      "style": "萌宠动物",
+      "creator": {
+        "name": "暮之鸣",
+        "followers": 2136,
+        "tier": "small"
+      },
+      "published_at_unix": 1789395405,
+      "duration_seconds": 141,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 218116,
+        "like": 16397,
+        "coin": 6306,
+        "favorite": 11210,
+        "share": 3598,
+        "danmaku": 190,
+        "reply": 773
+      },
+      "rates": {
+        "like_rate": 0.075176,
+        "coin_rate": 0.028911,
+        "favorite_rate": 0.051395,
+        "share_rate": 0.016496,
+        "danmaku_rate": 0.000871,
+        "reply_rate": 0.003544
+      },
+      "analysis": {
+        "growth_per_hour": 4517.663,
+        "engagement_score": 0.171977
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 57,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1Nnep6oEAm",
+      "url": "https://www.bilibili.com/video/BV1Nnep6oEAm",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-03.bilivideo.com/upgcxcode/27/26/41921022627/41921022627-1-192.mp4?e=ig8euxZM2rNcNbR17wdVhwdlhWRMhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&trid=00002f350d135c91418a8a57a132c4bc7dfh&nbs=1&uipk=5&os=bcache&og=ali&mid=0&deadline=1789576436&gen=playurlv3&oi=2028373335&platform=html5&upsig=5ddc34e9f64551130c51ffe2889139e6&uparams=e,trid,nbs,uipk,os,og,mid,deadline,gen,oi,platform&cdnid=88503&bvc=vod&nettype=0&bw=918171&lrs=100&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:55+08:00",
+        "expires_at": "2026-09-16T16:33:56+00:00",
+        "error": null
+      },
+      "title": "叶罗丽去你擅长的领域吧",
+      "description": "-",
+      "category": "同人·手书",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "宋小小P",
+        "followers": 159280,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789477207,
+      "duration_seconds": 458,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 81151,
+        "like": 9861,
+        "coin": 662,
+        "favorite": 3270,
+        "share": 125,
+        "danmaku": 933,
+        "reply": 384
+      },
+      "rates": {
+        "like_rate": 0.121514,
+        "coin_rate": 0.008158,
+        "favorite_rate": 0.040295,
+        "share_rate": 0.00154,
+        "danmaku_rate": 0.011497,
+        "reply_rate": 0.004732
+      },
+      "analysis": {
+        "growth_per_hour": 3175.178,
+        "engagement_score": 0.171507
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 58,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1z3Y76eEKW",
+      "url": "https://www.bilibili.com/video/BV1z3Y76eEKW",
+      "media": {
+        "url": "https://cn-gdjm-cm-01-01.bilivideo.com/upgcxcode/80/65/41796896580/41796896580-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&trid=00009a0ef9b44a8943388fdcecf9108cb2bh&og=hw&mid=0&deadline=1789576436&platform=html5&oi=2028373335&gen=playurlv3&os=bcache&nbs=1&uipk=5&upsig=eecd0d410410d5e4eadeea7ce1c5b7b5&uparams=e,trid,og,mid,deadline,platform,oi,gen,os,nbs,uipk&cdnid=88501&bvc=vod&nettype=0&bw=741226&lrs=86&agrr=0&buvid=&build=0&dl=0&f=h_0_0&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:55+08:00",
+        "expires_at": "2026-09-16T16:33:56+00:00",
+        "error": null
+      },
+      "title": "《和樱花妹互换身体の日常》第二集",
+      "description": "自制短剧，不要相信任何说有全集的喔，原创剧情，我自己都没全集",
+      "category": "影视剪辑",
+      "style": "Vlog生活",
+      "creator": {
+        "name": "我就是一颗豆",
+        "followers": 14588,
+        "tier": "small"
+      },
+      "published_at_unix": 1789131648,
+      "duration_seconds": 235,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 526452,
+        "like": 59703,
+        "coin": 7245,
+        "favorite": 20447,
+        "share": 1508,
+        "danmaku": 579,
+        "reply": 1415
+      },
+      "rates": {
+        "like_rate": 0.113406,
+        "coin_rate": 0.013762,
+        "favorite_rate": 0.038839,
+        "share_rate": 0.002864,
+        "danmaku_rate": 0.0011,
+        "reply_rate": 0.002688
+      },
+      "analysis": {
+        "growth_per_hour": 4331.279,
+        "engagement_score": 0.168872
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 59,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    },
+    {
+      "bvid": "BV1xeeJ6nE57",
+      "url": "https://www.bilibili.com/video/BV1xeeJ6nE57",
+      "media": {
+        "url": "https://upos-lcdn-cqgl01.solseed.cn/upgcxcode/48/01/41920630148/41920630148_qe1-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&platform=html5&oi=2028373335&trid=0478145c48fc4451ae3789bdfcbd4e0h&mid=0&og=hw&nbs=1&deadline=1789576436&uipk=5&gen=playurlv3&os=upos&upsig=8d22d7b8ae084913093097407f5fd037&uparams=e,platform,oi,trid,mid,og,nbs,deadline,uipk,gen,os&bvc=vod&nettype=0&bw=611372&lrs=0&build=0&dl=0&f=h_0_0&agrr=0&buvid=&orderid=0,1",
+        "status": "resolved",
+        "mime_type": "video/mp4",
+        "resolver": "bilibili_x_player_pagelist_playurl_html5",
+        "access_profile": "temporary_cdn_browser_user_agent",
+        "resolved_at": "2026-09-16T22:33:55+08:00",
+        "expires_at": "2026-09-16T16:33:56+00:00",
+        "error": null
+      },
+      "title": "全部娘化在即？《植物娘大战僵尸》前瞻第五期！",
+      "description": "研发：@三悠野尽诚  \n睡莲CV：@山野小红",
+      "category": "单机游戏",
+      "style": "其他/未归类",
+      "creator": {
+        "name": "庄特纯",
+        "followers": 171443,
+        "tier": "mid"
+      },
+      "published_at_unix": 1789476312,
+      "duration_seconds": 379,
+      "snapshot": {
+        "date": "2026-09-16",
+        "view": 199321,
+        "like": 20088,
+        "coin": 8017,
+        "favorite": 4764,
+        "share": 761,
+        "danmaku": 928,
+        "reply": 1633
+      },
+      "rates": {
+        "like_rate": 0.100782,
+        "coin_rate": 0.040222,
+        "favorite_rate": 0.023901,
+        "share_rate": 0.003818,
+        "danmaku_rate": 0.004656,
+        "reply_rate": 0.008193
+      },
+      "analysis": {
+        "growth_per_hour": 7723.661,
+        "engagement_score": 0.168723
+      },
+      "evidence_available": [
+        "title",
+        "description",
+        "category",
+        "style",
+        "metrics",
+        "video"
+      ],
+      "quality": {
+        "metrics_usable": true,
+        "flags": []
+      },
+      "selection": {
+        "rank": 60,
+        "reasons": [
+          "high_engagement_or_growth",
+          "category_diversity"
+        ]
+      }
+    }
+  ]
+}

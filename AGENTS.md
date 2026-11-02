@@ -13,18 +13,19 @@
 ## 证据规则
 
 - 先阅读顶层的 `content_scope` 和每条视频的 `evidence_available`，只使用实际提供的证据。
-- `observed` 只能写标题、简介、元数据和指标中直接可见的事实。
+- `observed` 只能写标题、简介、元数据、指标、弹幕和评论中直接可见的事实。
 - `inferred` 可以做分析判断，但必须明确是推断，不要把推断写成已验证事实。
 - 每个视频至少给出一条 `evidence`，`quote` 必须是输入中的短引文或对输入字段的准确概括。
+- `source` 可取 `title`、`description`、`metadata`、`metrics`、`danmaku`、`comments` 或 `video`。`danmaku` / `comments` 只能用于 `items[].danmaku` / `items[].comments` 样本里实际存在的内容，样本之外的内容不可臆造。
 - 只有确实看到了视频文件/画面或听到了音频，才可以使用 `source: "video"`。仅存在 `media.url` 不代表已经看过视频。
-- 无法判断的字段填写 `null`，不要根据标题臆造画面、口播、字幕、评论或事实细节。
+- 无法判断的字段填写 `null`，不要根据标题臆造画面、口播、字幕或事实细节。弹幕与评论是观众反馈，不代表视频内容本身。
 - 媒体链接无法访问、已过期或只有视频轨没有音频时，应降低 `evidence_scope`，并在 `needs_manual_review` 或 `daily_summary.limitations` 中说明。
 
 ## 输出要求
 
 只返回一个合法 JSON 对象，不要 Markdown 代码围栏、解释文字或额外前后缀。结构必须符合下面的约束：
 
-- `schema_version` 固定为 `"1.0"`。
+- `schema_version` 与输入表单保持一致（当前为 `"1.1"`）。
 - `form_type` 固定为 `"bili_content_understanding_output"`。
 - `run_date` 必须与输入表单一致。
 - `input_sha256` 不知道时填 `null`；本地校验脚本会补写真实 SHA256。
